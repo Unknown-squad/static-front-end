@@ -167,7 +167,7 @@ header{
       justify-content: space-between;
       align-items: center;
     }
-      .logo{ 
+      .logo a{ 
       display: flex;
       justify-content: center;
         h1{
@@ -524,6 +524,33 @@ header{
   }
 }
 /*end hr-section-6*/
+/*start footer*/
+footer{
+  background-color: $purple-500;
+  color: #fff;
+  padding: 15px 0;
+  .footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h5{
+      font-size: 14px;
+      font-family: $ft-poppins;
+      font-weight: 400;
+    }    
+    .icon-foooter{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      li a{
+        font-size: 18px;
+        margin-right: 10px;
+         color: #fff;
+      }
+    }
+  }
+}
+/*end footer*/
 /*media*/
 @media screen and (max-width: 992px){
   .container{
@@ -599,5 +626,12 @@ header{
   .hr-section-2 .card-help,
   .hr-section-2 .card-overlay{
     max-width: 240px;
+  }
+  footer .footer-info{
+    display: block;
+    text-align: center;
+  }
+  footer .footer-info h5{
+    margin-bottom: 10px;
   }
 }

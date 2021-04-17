@@ -1083,12 +1083,12 @@ header nav .navbar-ham {
   align-items: center;
 }
 
-header nav .logo {
+header nav .logo a {
   display: flex;
   justify-content: center;
 }
 
-header nav .logo h1 {
+header nav .logo a h1 {
   font-size: 24px;
   font-family: "Poppins", sans-serif;
   color: #343090;
@@ -1096,7 +1096,7 @@ header nav .logo h1 {
   font-style: italic;
 }
 
-header nav .logo span {
+header nav .logo a span {
   font-size: 20px;
   font-family: "Hachi Maru Pop", cursive;
   font-weight: bold;
@@ -1477,6 +1477,38 @@ header nav .navbar li .hero:hover {
 }
 
 /*end hr-section-6*/
+/*start footer*/
+footer {
+  background-color: #343090;
+  color: #fff;
+  padding: 15px 0;
+}
+
+footer .footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer-info h5 {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+footer .footer-info .icon-foooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer-info .icon-foooter li a {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+/*end footer*/
 /*media*/
 @media screen and (max-width: 992px) {
   .container {
@@ -1553,5 +1585,12 @@ header nav .navbar li .hero:hover {
   .hr-section-2 .card-help,
   .hr-section-2 .card-overlay {
     max-width: 240px;
+  }
+  footer .footer-info {
+    display: block;
+    text-align: center;
+  }
+  footer .footer-info h5 {
+    margin-bottom: 10px;
   }
 }
