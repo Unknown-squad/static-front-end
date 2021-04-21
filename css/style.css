@@ -5,6 +5,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:focus {
+  outline: none;
 }
 
 a {
@@ -49,6 +54,100 @@ section {
 
 svg {
   display: block;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.just-cont-cntr {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.alin-itms-cntr {
+  align-items: center;
+}
+
+form,
+form div {
+  padding-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  background-color: #f3f4f7;
+  border: none;
+  border-radius: 7px;
+  padding: 0.5rem 1rem;
+}
+
+input :focus {
+  outline-offset: none;
+}
+
+label {
+  font-size: 14px;
+}
+
+select {
+  background-color: #f3f4f7;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[name="sign-in-email"],
+input[name="register-email"],
+input[type="tel"] {
+  background-repeat: no-repeat;
+  background-position: 97% 50%;
+}
+
+input[type="text"] {
+  background-image: url(../images/user-icon.svg);
+}
+
+input[type="password"] {
+  background-image: url(../images/lock-icon.svg);
+}
+
+input[name="sign-in-email"] {
+  background-image: url(../images/user-icon.svg);
+}
+
+input[name="register-email"] {
+  background-image: url(../images/at-icon.svg);
+}
+
+input[type="tel"] {
+  background-image: url(../images/phone-icon.svg);
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-25 {
+  width: 25%;
 }
 
 /*global*/
@@ -273,7 +372,7 @@ svg {
 }
 
 .container {
-  max-width: 80%;
+  max-width: 1140px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -1068,7 +1167,8 @@ svg {
 /*start navbar*/
 header {
   background-color: #F6F6F6;
-  box-shadow: 0px -3px 22px #6e6cb942;
+  box-shadow: 0px -3px 22px #32326b69;
+  margin-bottom: 10px;
 }
 
 header nav {
@@ -1150,6 +1250,19 @@ header nav .navbar li .hero {
 header nav .navbar li .hero:hover {
   border-bottom: 8px solid transparent;
   border-image: url("../images/hero-bord.svg") 30;
+}
+
+header nav .navbar li .bg-purple-400 {
+  background-color: #5F59F7;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  padding: 2px 30px;
+  border-radius: 24px;
+}
+
+header nav .navbar li .bg-purple-400:hover {
+  border: none;
 }
 
 /*end navbar*/
@@ -1477,6 +1590,7 @@ header nav .navbar li .hero:hover {
 }
 
 /*end hr-section-6*/
+
 /*start footer*/
 footer {
   background-color: #343090;
@@ -1564,11 +1678,23 @@ footer .footer-info .icon-foooter li a {
   .hr-section-2 .card-overlay {
     max-width: 260px;
   }
+  .hr-section-8 .nav-form {
+    max-width: 100%;
+  }
+  .hr-section-8 .form-register-container {
+    max-width: 95%;
+  }
+  .header-signIn-hero::before {
+    top: 2%;
+  }
 }
 
 @media screen and (max-width: 576px) {
   .hr-section-1 {
     text-align: center;
+  }
+  .hr-section-1 .ex-now:hover:before {
+    margin: -1.2rem 2.5rem;
   }
   .hr-section-2 {
     padding: 35px 38px 125px;
@@ -1585,6 +1711,13 @@ footer .footer-info .icon-foooter li a {
   .hr-section-2 .card-help,
   .hr-section-2 .card-overlay {
     max-width: 240px;
+  }
+  .hr-section-7 .nav-form {
+    padding: 0;
+  }
+  .hr-section-7 .form-container,
+  .hr-section-8 .form-register-container {
+    padding: 3rem 1.75rem;
   }
   footer .footer-info {
     display: block;
