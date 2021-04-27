@@ -800,7 +800,6 @@ header{
   /* start hr-section-9*/
   .hr-section-9{
     background-color: #F3F4F7;
-    height: 100vh;
    
     h1{
       color: $purple-500;
@@ -810,7 +809,7 @@ header{
       padding-bottom: 1.5rem;
       margin-bottom: 2rem;
     }
-    img{
+    .hero-signIn{
       transition: all .5s ease-in-out;
     &:hover{
       content: url(../images/hero-signIn-hover.png);
@@ -825,10 +824,12 @@ header{
     }
     input{
       background-color: #fff;
-      &:hover{
+      &:hover,
+      &:focus{
         box-shadow: 0px 2px 8px #8c61ff52;
       }
     }
+   
     label{
       display: flex;
       justify-content: center;
@@ -843,7 +844,18 @@ header{
       margin-right: 10px;
       margin-top: 20px;
       margin-bottom: 10px;
-      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all .3s ease-in-out;
+      img{
+        width: auto;
+        padding-left: .25rem;
+        transition: all .3s ease-in-out;
+      }
+      &:hover img{
+        transform: translate(5px,0px);
+      }
     }
     
   }
