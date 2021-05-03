@@ -21,6 +21,7 @@ img{
 }
 section{
   padding: 60px 80px;
+  height: 100%;
 }
 .font-bold{
   font-weight: bold;
@@ -74,7 +75,7 @@ input {
   background-color: #f3f4f7;
   border: none;
   border-radius: 7px;
-  padding: 0.5rem 1rem;
+  padding: 0.35rem 1rem;
   :focus{
     outline-offset: none;
   }
@@ -126,6 +127,11 @@ input[type="tel"] {
 }
 .w-25{
   width: 25%;
+}
+.container-sign{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 /*global*/
 /* margin and padding*/
@@ -632,15 +638,15 @@ header{
       padding-bottom: 1.5rem;
     }
     .form-container {
-      max-width: 30rem;
+      max-width: 33rem;
       min-width: 16rem;
       border-radius: 8px;
-      padding: 3rem 4.5rem 1rem;
+      padding: 3rem 6.5rem 1rem;
       background-color: #fff;
       
     }
     .nav-form{
-      max-width: 30rem;
+      max-width: 33rem;
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -800,6 +806,7 @@ header{
   /* start hr-section-9*/
   .hr-section-9{
     background-color: #F3F4F7;
+    padding: 30px 60px;
    
     h1{
       color: $purple-500;
@@ -866,6 +873,7 @@ footer{
   background-color: $purple-500;
   color: #fff;
   padding: 15px 0;
+  margin-top: auto;
   .footer-info{
     display: flex;
     justify-content: space-between;
@@ -888,6 +896,7 @@ footer{
   }
 }
 /*end footer*/
+
 /*media*/
 @media screen and (max-width: 992px){
   .container{
@@ -896,13 +905,16 @@ footer{
     padding-left: 0;
   }
   section{
-    padding: 70px 0;
+    padding: 30px 0;
   }
   .hr-section-3 .btn-g-m-start::after{
     bottom: 50px;
   }
   .hr-section-2 .card-overlay{
     max-width: 230px;
+  }
+  .hr-section-9{
+    padding: 30px 0;
   }
 }
 @media screen and (max-width: 768px){
@@ -982,6 +994,12 @@ footer{
   .hr-section-7 .form-container,
   .hr-section-8 .form-register-container{
     padding: 3rem 1.75rem;
+  }
+  .hr-section-7{
+    padding-bottom: 55rem;
+  }
+  .hr-section-9 .form-container{
+    max-width: 100%;
   }
   footer .footer-info{
     display: block;

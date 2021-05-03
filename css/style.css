@@ -26,6 +26,7 @@ img {
 
 section {
   padding: 60px 80px;
+  height: 100%;
 }
 
 .font-bold {
@@ -87,7 +88,7 @@ input {
   background-color: #f3f4f7;
   border: none;
   border-radius: 7px;
-  padding: 0.5rem 1rem;
+  padding: 0.35rem 1rem;
 }
 
 input :focus {
@@ -148,6 +149,12 @@ input[type="tel"] {
 
 .w-25 {
   width: 25%;
+}
+
+.container-sign {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /*global*/
@@ -1602,15 +1609,15 @@ header nav .navbar li .bg-purple-400:hover {
 }
 
 .hr-section-7 .form-container {
-  max-width: 30rem;
+  max-width: 33rem;
   min-width: 16rem;
   border-radius: 8px;
-  padding: 3rem 4.5rem 1rem;
+  padding: 3rem 6.5rem 1rem;
   background-color: #fff;
 }
 
 .hr-section-7 .nav-form {
-  max-width: 30rem;
+  max-width: 33rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -1785,6 +1792,7 @@ header nav .navbar li .bg-purple-400:hover {
 /* start hr-section-9*/
 .hr-section-9 {
   background-color: #F3F4F7;
+  padding: 30px 60px;
 }
 
 .hr-section-9 h1 {
@@ -1857,6 +1865,7 @@ footer {
   background-color: #343090;
   color: #fff;
   padding: 15px 0;
+  margin-top: auto;
 }
 
 footer .footer-info {
@@ -1892,13 +1901,16 @@ footer .footer-info .icon-foooter li a {
     padding-left: 0;
   }
   section {
-    padding: 70px 0;
+    padding: 30px 0;
   }
   .hr-section-3 .btn-g-m-start::after {
     bottom: 50px;
   }
   .hr-section-2 .card-overlay {
     max-width: 230px;
+  }
+  .hr-section-9 {
+    padding: 30px 0;
   }
 }
 
@@ -1979,6 +1991,12 @@ footer .footer-info .icon-foooter li a {
   .hr-section-7 .form-container,
   .hr-section-8 .form-register-container {
     padding: 3rem 1.75rem;
+  }
+  .hr-section-7 {
+    padding-bottom: 55rem;
+  }
+  .hr-section-9 .form-container {
+    max-width: 100%;
   }
   footer .footer-info {
     display: block;
