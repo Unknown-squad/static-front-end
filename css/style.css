@@ -26,6 +26,7 @@ img {
 
 section {
   padding: 60px 80px;
+  height: 100%;
 }
 
 .font-bold {
@@ -87,7 +88,7 @@ input {
   background-color: #f3f4f7;
   border: none;
   border-radius: 7px;
-  padding: 0.5rem 1rem;
+  padding: 0.35rem 1rem;
 }
 
 input :focus {
@@ -148,6 +149,12 @@ input[type="tel"] {
 
 .w-25 {
   width: 25%;
+}
+
+.container-sign {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /*global*/
@@ -1678,6 +1685,7 @@ header nav .navbar li .bg-purple-400:hover {
 /* start hr-section-8*/
 .hr-section-8 {
   background-color: #F3F4F7;
+  padding-bottom: 45rem;
 }
 
 .hr-section-8 h1 {
@@ -1847,14 +1855,13 @@ header nav .navbar li .bg-purple-400:hover {
 /* start hr-section-10*/
 .hr-section-10 {
   background-color: #F3F4F7;
-  padding: 20px 80px 60px;
+  padding: 20px 80px 45rem;
 }
 
 .hr-section-10 h3 {
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
-  padding-bottom: 1rem;
 }
 
 .hr-section-10 .form-register-container {
@@ -2002,6 +2009,7 @@ footer {
   background-color: #343090;
   color: #fff;
   padding: 15px 0;
+  margin-top: auto;
 }
 
 footer .footer-info {
@@ -2037,7 +2045,7 @@ footer .footer-info .icon-foooter li a {
     padding-left: 0;
   }
   section {
-    padding: 70px 0;
+    padding: 30px 0;
   }
   .hr-section-10 {
     padding: 25px 0;
@@ -2077,6 +2085,7 @@ footer .footer-info .icon-foooter li a {
   header nav .navbar.show {
     transform: translatey(110%);
     opacity: 1;
+    box-shadow: 0px 10px 11px #b5b5b7;
   }
   .hr-section-2 .hero-icon-angle {
     top: 0;
@@ -2128,6 +2137,9 @@ footer .footer-info .icon-foooter li a {
   .hr-section-8 .form-register-container,
   .hr-section-10 .form-register-container {
     padding: 3rem 1.75rem;
+  }
+  .container-sign {
+    height: auto;
   }
   footer .footer-info {
     display: block;
