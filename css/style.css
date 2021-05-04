@@ -165,7 +165,7 @@ input[type="tel"] {
 }
 
 .container-sign {
-  height: 100vh;
+  height: calc(100vh - 65px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
