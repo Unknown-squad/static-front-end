@@ -817,9 +817,10 @@ header{
       margin-bottom: 2rem;
     }
     .hero-signIn{
-      transition: all .5s ease-in-out;
+      transition: all .3s ease-in-out;
+      background: url(../images/hero-signIn.png);
     &:hover{
-      content: url(../images/hero-signIn-hover.png);
+      background: url(../images/hero-signIn-hover.png);
       }
     }
     .form-container {

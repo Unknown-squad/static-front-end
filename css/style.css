@@ -1805,11 +1805,12 @@ header nav .navbar li .bg-purple-400:hover {
 }
 
 .hr-section-9 .hero-signIn {
-  transition: all .5s ease-in-out;
+  transition: all .3s ease-in-out;
+  background: url(../images/hero-signIn.png);
 }
 
 .hr-section-9 .hero-signIn:hover {
-  content: url(../images/hero-signIn-hover.png);
+  background: url(../images/hero-signIn-hover.png);
 }
 
 .hr-section-9 .form-container {
