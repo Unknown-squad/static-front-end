@@ -136,7 +136,7 @@ input[type="tel"] {
 /*global*/
 /* margin and padding*/
 
-$spaceamounts: (1,2,3,4,5); // Adjust this to include the pixel amounts you need.
+$spaceamounts: (1,2,3,4,5); // Adjust this to include the rem amounts you need.
 $sides: (top, bottom, left, right); // Leave this variable alone
 
 @each $space in $spaceamounts {
@@ -215,6 +215,7 @@ $map-grid-props: (
     }
   }
 }
+
 
 .container {
   max-width: 1140px;
@@ -438,26 +439,25 @@ header{
       color: $purple-500;
     }
   }
-
+  .ml-card-4{
+    margin-left: 1rem;
+  }
   .card-overlay{
     position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
+    top: .5rem;
+    left: 1.5rem;
+    right: 0;
+    bottom: -.75rem;
     border: 2px solid $purple-300;
     z-index: 9999;
-    max-width: 280px;
     border-radius: 7px;
-    transform: translate(25px, 10px);
   }
   .card-help{
     height: 100%;
     background-color: #fff;
     text-align: center;
-    max-width: 280px;
     border-radius: 7px;
-    padding: 55px 45px;
+    padding: 3rem;
     .img-card{
       img{
         width: auto;
@@ -466,15 +466,15 @@ header{
     h6{
       font-family: $ft-poppins;
       font-size: 20px;
-      color: $purple-400;
+      color: $purple-gray;
       font-weight: 300;
       margin-top: 5px;
       margin-bottom: 15px;
     }
     p{
       font-family: $ft-poppins;
-      font-size: 13px;
-      color: $purple-300;
+      font-size: 14px;
+      color: $purple-gray;
       line-height: 1.8;
     }
   }
@@ -511,7 +511,7 @@ header{
       font-size: 16px;
       font-family: $ft-poppins;
       margin-top: 10px;
-      transition: all .4 ease-in-out;
+      transition: all .4s ease-in-out;
       a{
         color: #fff;
       }
@@ -521,6 +521,32 @@ header{
     }
     img{
       width: auto;
+    }
+  }
+  .shadow-img{
+    img{
+      box-shadow: 10px 10px $purple-400;
+      border-radius: 10px;
+     
+    }
+    &::before{
+      content: url(../images/curve-img.svg);
+      position: absolute;
+      left: 0;
+      top: -1rem;
+    }
+  }
+  .shadow-img-cy{
+    img{
+      box-shadow: 10px 10px $cyan;
+      border-radius: 10px;
+     
+    }
+    &::before{
+      content: url(../images/curve-img-cy.svg);
+      position: absolute;
+      left: 0;
+      top: -1rem;
     }
   }
 }
@@ -706,95 +732,95 @@ header{
 /* end page sign in*/
 /* start page sign in-hero*/
 .header-signIn-hero{
-  padding: .5rem 0 .5rem 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  .arrow{
-    img{
-      width: auto;
+    padding: .5rem 0 .5rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .arrow{
+      img{
+        width: auto;
+        transition: all .3s ease-in-out;
+        &:hover{
+          transform: scaleX(1.25);
+        }
+      }
+     
+    }
+    .nav-signIn-hero{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+  }
+  /* start hr-section-9*/
+  .hr-section-9{
+    background-color: #F3F4F7;
+    padding: 30px 60px;
+   
+    h1{
+      color: $purple-500;
+      font-family: $ft-Maru-Pop;
+      font-size: 28px;
+      text-align: center;
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .hero-signIn{
       transition: all .3s ease-in-out;
-      &:hover{
-        transform: scaleX(1.25);
+      background: url(../images/hero-signIn.png) no-repeat;
+      background-size: contain;
+      height: 320px;
+    &:hover{
+      background: url(../images/hero-signIn-hover.png) no-repeat;
+      background-size: contain;
+      }
+    }
+    .form-container {
+      max-width: 85%;
+      min-width: 16rem;
+      border-radius: 8px;
+      padding: 3rem 2.5rem 1rem;
+
+    }
+    input{
+      background-color: #fff;
+      &:hover,
+      &:focus{
+        box-shadow: 0px 2px 8px #8c61ff52;
       }
     }
    
-  }
-  .nav-signIn-hero{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    label{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .btn-sign {
+      padding: 3px 0;
+      width: 140px;
+      font-size: 16px;
+      background-color: #8c61ff;
+      border-radius: 24px;
+      margin-right: 10px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all .3s ease-in-out;
+      img{
+        width: auto;
+        padding-left: .25rem;
+        transition: all .3s ease-in-out;
+      }
+      &:hover img{
+        transform: translate(5px,0px);
+      }
+    }
     
   }
-}
-/* start hr-section-9*/
-.hr-section-9{
-  background-color: #F3F4F7;
-  padding: 30px 60px;
- 
-  h1{
-    color: $purple-500;
-    font-family: $ft-Maru-Pop;
-    font-size: 28px;
-    text-align: center;
-    padding-bottom: 1.5rem;
-    margin-bottom: 2rem;
-  }
-  .hero-signIn{
-    transition: all .3s ease-in-out;
-    background: url(../images/hero-signIn.png) no-repeat;
-    background-size: contain;
-    height: 320px;
-  &:hover{
-    background: url(../images/hero-signIn-hover.png) no-repeat;
-    background-size: contain;
-    }
-  }
-  .form-container {
-    max-width: 85%;
-    min-width: 16rem;
-    border-radius: 8px;
-    padding: 3rem 2.5rem 1rem;
-
-  }
-  input{
-    background-color: #fff;
-    &:hover,
-    &:focus{
-      box-shadow: 0px 2px 8px #8c61ff52;
-    }
-  }
- 
-  label{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .btn-sign {
-    padding: 3px 0;
-    width: 140px;
-    font-size: 16px;
-    background-color: #8c61ff;
-    border-radius: 24px;
-    margin-right: 10px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all .3s ease-in-out;
-    img{
-      width: auto;
-      padding-left: .25rem;
-      transition: all .3s ease-in-out;
-    }
-    &:hover img{
-      transform: translate(5px,0px);
-    }
-  }
-  
-}
-/* end hr-section-9*/
+  /* end hr-section-9*/
 /* end page sign in-hero*/
 /* start page sign up*/
   /* start hr-section-8*/
@@ -1033,7 +1059,19 @@ footer{
   }
 }
 /*end footer*/
+
 /*media*/
+@media screen and (min-width: 992px){
+  .col-lg-30 {
+    flex: 0 0 29%;
+    max-width: 29%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
 @media screen and (max-width: 992px){
   .container{
     max-width: 94%;
@@ -1043,15 +1081,18 @@ footer{
   section{
     padding: 30px 0;
   }
-  .hr-section-10 {
-    padding: 25px 0;
-  }
   .hr-section-3 .btn-g-m-start::after{
     bottom: 50px;
   }
   .hr-section-2 .card-overlay{
     max-width: 230px;
   }
+  .hr-section-9{
+    padding: 30px 0;
+  .hr-section-2 .ml-card-4{
+    margin-left: 0;
+  }
+}
 }
 @media screen and (max-width: 768px){
   header{
@@ -1081,7 +1122,6 @@ footer{
   header nav .navbar.show{
     transform: translatey(110%);
     opacity: 1;
-    box-shadow: 0px 10px 11px #b5b5b7;
   }
   .hr-section-2 .hero-icon-angle {
     top: 0;
@@ -1129,12 +1169,17 @@ footer{
     padding: 0;
   }
   .hr-section-7 .form-container,
-  .hr-section-8 .form-register-container,
-  .hr-section-10 .form-register-container{
+  .hr-section-8 .form-register-container{
     padding: 3rem 1.75rem;
   }
-  .container-sign{
-    height: auto;
+  .hr-section-7{
+    padding-bottom: 55rem;
+  }
+  .hr-section-9 .form-container{
+    max-width: 100%;
+  }
+  .hr-section-9 .hero-signIn{
+    height: 230px;
   }
   footer .footer-info{
     display: block;
