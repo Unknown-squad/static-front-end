@@ -1807,11 +1807,13 @@ header nav .navbar li .bg-purple-400:hover {
 .hr-section-9 .hero-signIn {
   transition: all .3s ease-in-out;
   background: url(../images/hero-signIn.png) no-repeat;
-  height: 400px;
+  background-size: contain;
+  height: 320px;
 }
 
 .hr-section-9 .hero-signIn:hover {
   background: url(../images/hero-signIn-hover.png) no-repeat;
+  background-size: contain;
 }
 
 .hr-section-9 .form-container {
@@ -1999,6 +2001,9 @@ footer .footer-info .icon-foooter li a {
   }
   .hr-section-9 .form-container {
     max-width: 100%;
+  }
+  .hr-section-9 .hero-signIn {
+    height: 230px;
   }
   footer .footer-info {
     display: block;
