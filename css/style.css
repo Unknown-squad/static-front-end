@@ -1806,11 +1806,12 @@ header nav .navbar li .bg-purple-400:hover {
 
 .hr-section-9 .hero-signIn {
   transition: all .3s ease-in-out;
-  background: url(../images/hero-signIn.png);
+  background: url(../images/hero-signIn.png) no-repeat;
+  height: 400px;
 }
 
 .hr-section-9 .hero-signIn:hover {
-  background: url(../images/hero-signIn-hover.png);
+  background: url(../images/hero-signIn-hover.png) no-repeat;
 }
 
 .hr-section-9 .form-container {
