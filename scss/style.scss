@@ -301,6 +301,9 @@ header{
       li{
         margin: 15px 25px;
         text-transform: capitalize;
+        &:last-child{
+          margin: 15px 0;
+        }
         a{
           color:  $purple-400;
           font-family: $ft-poppins;
@@ -308,8 +311,7 @@ header{
           transition: all 0.4s;
           &:hover{
             border-bottom: 2px solid $purple-300;
-          }
-          
+          } 
         }
         .hero{
           font-family: $ft-Maru-Pop;
@@ -1031,6 +1033,48 @@ header{
   }
   /* end hr-section-10*/
 /* end page sign up-mentor-phase2*/
+/* end page Explore*/
+/* start hr-section-11*/
+.hr-section-11{
+  padding: 5px 80px 15px;
+  .topic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h4{
+      color: #414141;
+    }
+    .search{
+      display: flex;
+      align-items: center;
+      width: 24rem;
+      label{
+        margin-right: 10px;
+        color: #414141;
+        font-size: 16px;
+      }
+    }
+  }
+}
+input[type="search"] {
+  width: 73%;
+  background-color: #F3F4F7;
+  border-radius: 7px;
+  border: solid 1px #6592FD;
+  padding: 0.25rem 2rem 0.25rem 0.5rem;
+  outline: none;
+}
+
+input[type="search"] {
+  background-repeat: no-repeat;
+  background-position: 97% 50%;
+}
+
+input[type="search"] {
+background-image: url(../images/search-icon.svg);
+}
+/* end hr-section-11*/
+/* end page  Explore*/
 /*start footer*/
 footer{
   background-color: $purple-500;
@@ -1089,10 +1133,13 @@ footer{
   }
   .hr-section-9{
     padding: 30px 0;
+  }
   .hr-section-2 .ml-card-4{
     margin-left: 0;
   }
-}
+  .hr-section-11{
+    padding: 15px 0;
+  }
 }
 @media screen and (max-width: 768px){
   header{
@@ -1122,6 +1169,7 @@ footer{
   header nav .navbar.show{
     transform: translatey(110%);
     opacity: 1;
+    padding-bottom: 10px;
   }
   .hr-section-2 .hero-icon-angle {
     top: 0;
