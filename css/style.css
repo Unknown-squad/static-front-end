@@ -2079,7 +2079,7 @@ header nav .navbar li .bg-purple-400:hover {
   font-size: 16px;
 }
 
-input[type="search"] {
+.hr-section-11 input[type="search"] {
   width: 73%;
   background-color: #F3F4F7;
   border-radius: 7px;
@@ -2088,16 +2088,150 @@ input[type="search"] {
   outline: none;
 }
 
-input[type="search"] {
+.hr-section-11 input[type="search"] {
   background-repeat: no-repeat;
   background-position: 97% 50%;
 }
 
-input[type="search"] {
+.hr-section-11 input[type="search"] {
   background-image: url(../images/search-icon.svg);
 }
 
 /* end hr-section-11*/
+/* end hr-section-12*/
+.hr-section-12 {
+  background-color: #F3F4F7;
+  padding: 0;
+}
+
+.hr-section-12 .slider-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.75rem 1.75rem;
+}
+
+.hr-section-12 .slider-container .slider-content {
+  display: flex;
+  align-items: center;
+}
+
+.hr-section-12 .slider-container .slider-content .slider-item {
+  width: 15rem;
+  height: 9rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.hr-section-12 .slider-container .slider-content .slider-item .card-img {
+  position: relative;
+  background-color: #fff;
+  padding: .75rem;
+  height: 100%;
+  border-radius: 7px;
+  margin-bottom: 5px;
+}
+
+.hr-section-12 .slider-container .slider-content .slider-item .card-img .slider-purple-border {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: 2px solid #8C61FF;
+  border-radius: 7px;
+  transform: translate(4px, 4px);
+}
+
+.hr-section-12 .slider-container .slider-content .slider-item .card-img img {
+  height: 100%;
+}
+
+.hr-section-12 .slider-container .slider-content .slider-item .card-name {
+  text-align: center;
+}
+
+.hr-section-12 .slider-container .slider-content .slider-item .card-name p {
+  color: #8C61FF;
+}
+
+.hr-section-12 .slider-container button {
+  cursor: pointer;
+  border: none;
+  transition-duration: 0.3s;
+  background: none;
+}
+
+/* end hr-section-12*/
+/* end hr-section-13*/
+.hr-section-13 {
+  padding: 15px 80px;
+}
+
+.hr-section-13 .services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hr-section-13 .services h4 {
+  color: #414141;
+}
+
+.hr-section-13 .services .select-services {
+  display: flex;
+}
+
+.hr-section-13 .services .select-services select {
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 1px solid #6592FD;
+  background: #F3F4F7;
+  flex: 1;
+  padding: 0 .5em;
+  color: #414141;
+  cursor: pointer;
+  height: 100%;
+  background-image: none;
+}
+
+.hr-section-13 .services .select-services .sort-by,
+.hr-section-13 .services .select-services .filter {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13rem;
+  line-height: 3;
+  overflow: hidden;
+  border-radius: .25em;
+  height: 1.65rem;
+}
+
+.hr-section-13 .services .select-services .sort-by::after,
+.hr-section-13 .services .select-services .filter::after {
+  content: url(../images/select-arrow.svg);
+  position: absolute;
+  top: -.65rem;
+  right: 0;
+  padding: 0 .55rem;
+  cursor: pointer;
+  pointer-events: none;
+  transition: .25s all ease;
+}
+
+.hr-section-13 .services .select-services .sort-by label,
+.hr-section-13 .services .select-services .filter label {
+  margin-right: 0.5rem;
+  font-size: 16px;
+}
+
+.hr-section-13 .services .select-services .sort-by {
+  margin-right: 1.75rem;
+}
+
+/* end hr-section-13*/
 /* end page  Explore*/
 /*start footer*/
 footer {
@@ -2166,7 +2300,8 @@ footer .footer-info .icon-foooter li a {
   .hr-section-2 .ml-card-4 {
     margin-left: 0;
   }
-  .hr-section-11 {
+  .hr-section-11,
+  .hr-section-13 {
     padding: 15px 0;
   }
 }
@@ -2258,6 +2393,27 @@ footer .footer-info .icon-foooter li a {
   }
   .hr-section-9 .hero-signIn {
     height: 230px;
+  }
+  .hr-section-11 .topic {
+    display: block;
+  }
+  .hr-section-11 .topic h4 {
+    margin-bottom: 0.5rem;
+  }
+  .hr-section-11 input[type="search"] {
+    width: 63%;
+  }
+  .hr-section-13 .services {
+    display: grid;
+  }
+  .hr-section-13 .services h4 {
+    margin-bottom: 0.75rem;
+  }
+  .hr-section-13 .services .select-services {
+    display: grid;
+  }
+  .hr-section-13 .services .select-services .sort-by {
+    margin-bottom: 0.75rem;
   }
   footer .footer-info {
     display: block;

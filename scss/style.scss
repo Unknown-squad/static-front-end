@@ -1055,25 +1055,145 @@ header{
       }
     }
   }
-}
-input[type="search"] {
-  width: 73%;
-  background-color: #F3F4F7;
-  border-radius: 7px;
-  border: solid 1px #6592FD;
-  padding: 0.25rem 2rem 0.25rem 0.5rem;
-  outline: none;
+  input[type="search"] {
+    width: 73%;
+    background-color: #F3F4F7;
+    border-radius: 7px;
+    border: solid 1px #6592FD;
+    padding: 0.25rem 2rem 0.25rem 0.5rem;
+    outline: none;
+  }
+  
+  input[type="search"] {
+    background-repeat: no-repeat;
+    background-position: 97% 50%;
+  }
+  
+  input[type="search"] {
+  background-image: url(../images/search-icon.svg);
+  }
 }
 
-input[type="search"] {
-  background-repeat: no-repeat;
-  background-position: 97% 50%;
-}
-
-input[type="search"] {
-background-image: url(../images/search-icon.svg);
-}
 /* end hr-section-11*/
+/* end hr-section-12*/
+.hr-section-12{
+  background-color: #F3F4F7;
+  padding: 0;
+  .slider-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.75rem 1.75rem;
+    .slider-content{
+      display: flex;
+      align-items: center;
+      .slider-item {
+        width: 15rem;
+        height: 9rem;
+        padding: 1rem;
+        cursor: pointer;
+        .card-img {
+          position: relative;
+          background-color: #fff;
+          padding: .75rem;
+          height: 100%;
+          border-radius: 7px;
+          margin-bottom: 5px;
+          .slider-purple-border{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            border: 2px solid $purple-300;
+            border-radius: 7px;
+            transform: translate(4px,4px)
+          }
+          img{
+            height: 100%;
+          }
+        }
+        .card-name{
+          text-align: center;
+          p{
+            color: $purple-300;
+          }
+        }
+      }
+    }
+    button{
+      cursor: pointer;
+      border: none;
+      transition-duration: 0.3s;
+      background: none;
+    }
+  }
+
+}
+/* end hr-section-12*/
+/* end hr-section-13*/
+.hr-section-13{
+  padding: 15px 80px;
+  .services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h4{
+      color: #414141;
+    }
+    .select-services{
+      display: flex;
+      select{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        appearance: none;
+        outline: 0;
+        box-shadow: none;
+        border: 1px solid #6592FD;
+        background: #F3F4F7;
+        flex: 1;
+        padding: 0 .5em;
+        color: #414141;
+        cursor: pointer;
+        height: 100%;
+        background-image: none;
+      }
+      .sort-by,
+      .filter{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 13rem;
+        line-height: 3;
+        overflow: hidden;
+        border-radius: .25em;
+        height: 1.65rem;
+        &::after{
+          content: url(../images/select-arrow.svg);
+          position: absolute;
+          top: -.65rem;
+          right: 0;
+          padding: 0 .55rem;
+          cursor: pointer;
+          pointer-events: none;
+          -webkit-transition: .25s all ease;
+          -o-transition: .25s all ease;
+          transition: .25s all ease;
+        }
+        label{
+          margin-right: 0.5rem;
+          font-size: 16px;
+        }
+      }
+      .sort-by{
+        margin-right: 1.75rem;
+      }
+    }
+  }
+}
+/* end hr-section-13*/
 /* end page  Explore*/
 /*start footer*/
 footer{
@@ -1116,6 +1236,7 @@ footer{
     padding-left: 15px;
   }
 }
+
 @media screen and (max-width: 992px){
   .container{
     max-width: 94%;
@@ -1137,7 +1258,8 @@ footer{
   .hr-section-2 .ml-card-4{
     margin-left: 0;
   }
-  .hr-section-11{
+  .hr-section-11,
+  .hr-section-13{
     padding: 15px 0;
   }
 }
@@ -1228,6 +1350,27 @@ footer{
   }
   .hr-section-9 .hero-signIn{
     height: 230px;
+  }
+  .hr-section-11 .topic{
+    display: block;
+  }
+  .hr-section-11 .topic h4{
+    margin-bottom: 0.5rem;
+  }
+  .hr-section-11 input[type="search"]{
+    width: 63%;
+  }
+  .hr-section-13 .services{
+    display: grid;
+  }
+  .hr-section-13 .services h4{
+    margin-bottom: 0.75rem;
+  }
+  .hr-section-13 .services .select-services{
+    display: grid;
+  }
+  .hr-section-13 .services .select-services .sort-by{
+    margin-bottom: 0.75rem;
   }
   footer .footer-info{
     display: block;
