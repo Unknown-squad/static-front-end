@@ -2051,7 +2051,7 @@ header nav .navbar li .bg-purple-400:hover {
 
 /* end hr-section-10*/
 /* end page sign up-mentor-phase2*/
-/* end page Explore*/
+/* start page Explore*/
 /* start hr-section-11*/
 .hr-section-11 {
   padding: 5px 80px 15px;
@@ -2106,7 +2106,7 @@ header nav .navbar li .bg-purple-400:hover {
 
 .hr-section-12 .slider-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 1.75rem 1.75rem;
 }
@@ -2538,6 +2538,9 @@ footer .footer-info .icon-foooter li a {
   }
   .hr-section-11 input[type="search"] {
     width: 60%;
+  }
+  .hr-section-11 .topic .search{
+    width: 22rem;
   }
   .hr-section-13 .services {
     display: grid;
