@@ -1037,7 +1037,9 @@ header{
   background-color: #F3F4F7;
   margin: 2.5rem 0;
   padding: 1rem 0;
-  
+  .container-profile{
+    max-width: 88rem;
+  }
   .upload-img-profile{
     background-color: #fff;
     text-align: center;
@@ -1457,7 +1459,7 @@ footer{
   .hr-section-15 .p-profile{
     padding: 0;
   }
-  .mentor-about{
+  .hr-section-15{
     margin: 0 0 1rem 0;
   }
   footer .footer-info{
