@@ -1962,6 +1962,9 @@ footer{
   .hr-section-19 .purchase-container{
     max-width: 32.5rem;
   }
+  .hr-section-20{
+    min-height: calc(100vh - 122px);
+  }
 }
 
 @media screen and (max-width: 992px){
