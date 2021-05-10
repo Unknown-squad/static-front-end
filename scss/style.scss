@@ -137,13 +137,13 @@ input[type="tel"] {
   background: #343090;
   border-radius: 25px;
   width: 200px;
-  padding: .5rem 0;
+  padding: .3rem 0;
 }
 .btn-purple-200{
   background: #6592FD;
   border-radius: 25px;
   width: 200px;
-  padding: .5rem 0;
+  padding: .3rem 0;
 }
 /*global*/
 /* margin and padding*/
@@ -1556,6 +1556,8 @@ header{
   h4{
     color: $text-color;
     padding: 0 1rem 1rem;
+    font-size: 25px;
+    font-weight: 600;
   }
   .review{
     border: 2px solid $purple-300;
@@ -1569,7 +1571,7 @@ header{
       padding-top: 5px;
       margin-bottom: .5rem;
       span{
-        font-size: 14px;
+        font-size: 18px;
         color: $text-color;
       }
       img{
@@ -1604,6 +1606,11 @@ header{
     color: $text-color;
     h3{
       font-weight: 500;
+      font-size: 24px;
+    }
+    div{
+      display: flex;
+      gap: 8px;
     }
   }
   .visit-profile{
@@ -1612,6 +1619,10 @@ header{
     padding: 1rem 0;
     .mentor-img img{
       width: 35px;
+    }
+    .mentor-service-info{
+      display: flex;
+      align-items: center;
     }
     .mentor-info {
       line-height: 16px;
@@ -1648,7 +1659,7 @@ header{
     }
   }
   .lead-profile{
-    font-size: 16px;
+    font-size: 20px;
     color: $purple-gray;
   }
   .purchase-container {
@@ -1658,6 +1669,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    max-width: 39rem;
   }
   
   .purchase-container > div{
@@ -1674,6 +1686,10 @@ header{
   }
   .service-details > div > div > p{
     font-size: 18px;
+    span{
+      color: $purple-400;
+      font-weight: 600;
+    }
   }
   .service-purchase-btns div button{
     font-weight: 500;
@@ -1683,7 +1699,7 @@ header{
     width: auto;
   }
   .slider-service{
-    padding: 1rem 2rem;
+    padding: 1rem 0 1rem 2rem;
     .slider-show{
       img{
         width: 100%;
@@ -1702,7 +1718,7 @@ header{
       }
       .circle-arrow-right{
         position: absolute;
-        right: 5%;
+        right: 0%;
       }
       .slider-service-img{
         display: flex;
@@ -1726,6 +1742,9 @@ header{
   }
   .p-service{
     padding-right: 0;
+    .service-category{
+      font-size: 18px;
+    }
   }
 }
 /* end page  Explore-service*/
@@ -1768,6 +1787,30 @@ footer{
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
+  }
+}
+
+@media screen and (min-width: 1400px){
+  .container{
+    max-width: 1320px;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .hr-section-19 .lead-profile{
+    font-size: 16px;
+  }
+  .hr-section-19 .mentor-rate h3{
+    font-size: 22px;
+  }
+  .hr-section-19 .p-service .service-category{
+    font-size: 16px;
+  }
+  .hr-section-19 .slider-service .slider-service-content .circle-arrow-left{
+    left: 6.5%;
+  }
+  .hr-section-19 .purchase-container{
+    max-width: 32.5rem;
   }
 }
 
@@ -1866,6 +1909,9 @@ footer{
    .hr-section-19 .slider-service .slider-service-content .circle-arrow-right{
      right: 0;
    }
+   .hr-section-19 .purchase-container{
+     max-width: 100%;
+   }
 }
 @media screen and (max-width: 576px){
   .hr-section-1{
@@ -1935,6 +1981,15 @@ footer{
   }
   .hr-section-15{
     margin: 0 0 1rem 0;
+  }
+  .hr-section-19 .mentor-rate{
+    display: block;
+  }
+  .hr-section-19 .visit-profile{
+    display: block;
+    .mentor-service-info{
+      margin-bottom: 1rem;
+    }
   }
   .hr-section-19 .purchase-container{
     display: block;
