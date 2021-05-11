@@ -145,6 +145,13 @@ input[type="tel"] {
   width: 200px;
   padding: .3rem 0;
 }
+.btn-purple-400{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #5F59F7; /* $purple-400 */
+  padding: .2rem 2.5rem;
+  border-radius: 25px;
+}
 /*global*/
 /* margin and padding*/
 
@@ -1898,6 +1905,94 @@ header nav .nav-mentor{
   }
 }
 /* end page  mentor-home*/
+/* start page  mentor-dashboard*/
+.hr-section-21{
+  padding: 15px 80px;
+  min-height: calc(100vh - 119px);
+  .mentor-dashboard{
+    display: flex;
+    gap: 2rem;
+    .nav-mentor-dashboard{
+      background-color: #F3F4F7;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: .85rem;
+      text-align: center;
+      min-width: 11.5rem;
+      border-radius: 10px;
+      height: 100%;
+      li{
+        position: relative;
+        background-color: #fff;
+        padding: .65rem .75rem;
+        border-radius: 10px;
+        box-shadow: 0px 1px 4px #41414152;
+        cursor: pointer;
+        .mentor-overlay{
+          position: absolute;
+          left: -4px;
+          right: -4px;
+          top: -4px;
+          bottom: -4px;
+          border: 2px solid #8C61FF;
+          border-radius: 10px;
+          display: none;
+          &.active{
+            display: block;
+          }
+        }
+      }
+    }
+    // mentor-dashboard-courses
+    .dashboard-course{
+      background-color: #f3f4f7;
+      width: 100%;
+      padding: 2rem 1rem 1.5rem;
+      border-radius: 10px;
+      .mentor-course-card {
+        background-color: #fff;
+        border: solid 1px $purple-500;
+        border-radius: 13px;
+        padding: 1rem 1rem;
+        margin-bottom: 1.5rem;
+         /* card */
+          /* card image */
+          .mentor-course-img > img {
+            width: 100%;
+          }
+          /* card image */
+          /* mentor course info */
+          .mentor-course-info{
+            margin-bottom: 1rem; 
+            h2 {
+              font-size: 18px;
+              font-weight: 400;
+              color: $text-color;
+            }
+            p {
+              font-size: 14px;
+              font-weight: 300;
+              color: $purple-gray;
+            }
+          }
+          /* mentor course info */
+      }
+     .create-new{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       i{
+         font-size: 10px;
+         font-weight: 600;
+         margin-left: 2px;
+       }
+     }
+    }
+  }
+}
+/* end page  mentor-dashboard*/
+
 /*start footer*/
 footer{
   background-color: $purple-500;
@@ -2152,6 +2247,12 @@ footer{
   }
   .hr-section-20 .available .available-course{
     display: grid;
+  }
+  .hr-section-21{
+    padding: 15px 25px;
+  }
+  .hr-section-21 .mentor-dashboard{
+    flex-direction: column;
   }
   footer .footer-info{
     display: block;
