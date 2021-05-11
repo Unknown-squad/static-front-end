@@ -2947,7 +2947,7 @@ header nav .nav-mentor li:first-child:hover {
 }
 
 header nav .nav-mentor li:first-child:hover a {
-  font-weight: 500;
+  font-weight: normal;
 }
 
 header nav .nav-mentor li:last-child {
@@ -2960,6 +2960,10 @@ header nav .nav-mentor li a {
 
 header nav .nav-mentor li.active a {
   font-weight: bold;
+}
+
+header nav .nav-mentor li.active:hover a {
+  font-weight: normal;
 }
 
 .hr-section-20 {
@@ -3192,16 +3196,50 @@ header nav .nav-mentor li.active a {
   color: #77758E;
 }
 
-.hr-section-21 .mentor-dashboard .dashboard-course .create-new {
+.hr-section-21 .mentor-dashboard .create-new {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.hr-section-21 .mentor-dashboard .dashboard-course .create-new i {
+.hr-section-21 .mentor-dashboard .create-new i {
   font-size: 10px;
   font-weight: 600;
   margin-left: 2px;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-balance {
+  background-color: #f3f4f7;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  height: 100%;
+  align-items: center;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-balance .dashboard-balance-box {
+  background-color: #fff;
+  border: 1px solid #6592FD;
+  text-align: center;
+  padding: 1.25rem;
+  border-radius: 10px;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-balance .dashboard-balance-box p {
+  color: #343090;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-balance .dashboard-balance-box .price {
+  color: #6592FD;
+  font-weight: 300;
 }
 
 /* end page  mentor-dashboard*/

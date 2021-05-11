@@ -1763,7 +1763,7 @@ header nav .nav-mentor{
     &:first-child{
       &:hover{
         a{
-          font-weight: 500;
+          font-weight: normal;
         }
         margin-right: 1.5rem;
       }
@@ -1777,6 +1777,11 @@ header nav .nav-mentor{
     &.active{
       a{
       font-weight: bold;
+      }
+      &:hover{
+        a{
+          font-weight: normal;
+        }
       }
     }
   }
@@ -1978,7 +1983,9 @@ header nav .nav-mentor{
           }
           /* mentor course info */
       }
-     .create-new{
+     
+    }
+    .create-new{
        display: flex;
        justify-content: center;
        align-items: center;
@@ -1988,6 +1995,36 @@ header nav .nav-mentor{
          margin-left: 2px;
        }
      }
+    //mentor-dashboard-balance
+    .dashboard-balance{
+      background-color: #f3f4f7;
+      width: 100%;
+      padding: 1rem;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+      height: 100%;
+      align-items: center;
+      .dashboard-balance-box{
+        background-color: #fff;
+        border: 1px solid $purple-200;
+        text-align: center;
+        padding: 1.25rem;
+        border-radius: 10px;
+        p{
+          color: $purple-500;
+          text-transform: capitalize;
+          font-size: 16px;
+          font-weight: 500;
+          margin-bottom: 0.25rem;
+        }
+        .price{
+          color: $purple-200;
+          font-weight: 300;
+        }
+      }
     }
   }
 }
