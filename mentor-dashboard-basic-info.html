@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image-icon" href="images/title-icon.svg" />
+        <title>To Be Hero</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="https://kit.fontawesome.com/5638fbe671.js"></script>
+    </head>
+</head>
+<body>
+<!-- start header -->
+<header>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <a href=""> <h1>TO BE</h1><span>HERO</span></a>
+            </div>
+            <div class="navbar-ham">
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="navbar nav-mentor" id="navbar">
+                    <li><a href="">home</a></li>
+                    <li class="active"><a href="">Dashboard</a></li>
+                  <li><a href="">Explore</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<!-- end header -->
+<!-- start section mentor-dashboard -->
+<section class="hr-section-21">
+    <div class="container">
+        <div class="mentor-dashboard">
+                <ul class="nav-mentor-dashboard">
+                    <li>
+                        <a href="">Basic info</a>
+                        <div class="mentor-overlay active"></div>
+                    </li>
+                    <li>
+                        <a href="">Courses</a>
+                        <div class="mentor-overlay"></div>
+                    </li>
+                    <li>
+                        <a href="">Balance</a>
+                        <div class="mentor-overlay"></div>
+                    </li>
+                    <li>
+                        <a href="">Analytics</a>
+                        <div class="mentor-overlay"></div>
+                    </li>
+                </ul>
+            <div class="dashboard-course">
+              <form action="" class="basic-info-form">
+                <div class="row">
+                  <div class="col-lg-6 col-12">
+                    <div class="input-field">
+                      <label for="name">Full name*</label><br />
+                      <div class="flex-row w-100">
+                        <select name="mr" id="mr">
+                          <option value="Mr.">Mr.</option>
+                          <option value="Ms.">Ms.</option>
+                        </select>
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                        value="mohammed sobhi"
+                      />
+                      </div>
+                    </div>
+                    <div class="input-field">
+                      <label for="email">Email*</label><br />
+                      
+                      <input
+                        type="email"
+                        id="email"
+                        name="register-email"
+                        placeholder="Enter your email"
+                        required
+                        value="m.mohammed.sobhi.98@gmail.com"
+                      />
+                    </div>
+                    <div class="input-field">
+                      <label for="password">Password*</label><br />
+                      <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Enter your password"
+                        required
+                        value="zzzzzzzzzzzzzzzzzzz"
+                      />
+                    </div>
+                    <div class="input-field">
+                      <label for="phone">Phone</label><br />
+                      <div class="flex-row w-100">
+                      <select name="phone-code" id="phone-code">
+                        <option value="+20">+20</option>
+                      </select>
+                      <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="Enter your phone"
+                        value="01115790092"
+                      />
+                    </div>
+                    </div>
+                    <div class="input-field">
+                      <label for="Description">Description*</label><br />
+                      <textarea name="" id="Description" cols="30" rows="8" placeholder="Enter a short bio about yourself ….">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum deserunt et provident ad alias minus recusandae ut odit accusamus eaque eligendi, facere doloribus officiis dolorum illum animi minima quam repellat! Fuga labore beatae saepe animi iusto officiis eius optio impedit?</textarea>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-12">
+                    <div class="input-field">
+                      <label for="Birthdate">Birthdate*</label><br />
+                      <input
+                      type="text"
+                      id="Birthdate"
+                      name="name"
+                      class="Birthdate-mentor"
+                      placeholder="Enter your Birthdate"
+                      required
+                      value="28 - 9 - 1998"
+                    />
+                    </div>
+                    <div class="input-field">
+                      <label for="Languages-mentor">Languages*</label><br />
+                      
+                      <input
+                        type="text"
+                        id="Languages-mentor"
+                        name="Languages-mentor"
+                        class="Languages-mentor"
+                        placeholder="Enter your Languages"
+                        required
+                      />
+                    </div>
+                    <div class="input-field pt-1">
+                      <label for="Occupation">Occupation<sup>at least one</sup></label><br />
+                      <input
+                        type="text"
+                        id="Occupation"
+                        name="Occupation"
+                        class="Occupation-mentor"
+                        placeholder="Enter at least one"
+                        required
+                      />
+                    </div>
+                    <div class="input-field">
+                      <label for="Certificates">Certificates</label><br />
+                      <input
+                        type="text"
+                        id="Certificates"
+                        name="Certificates"
+                        class="Certificates-mentor"
+                        placeholder=""
+                        value="Lorem ipsum dolor sit amet"
+                      />
+                      <input
+                        type="text"
+                        id="Certificates"
+                        name="Certificates"
+                        class="Certificates-mentor"
+                        placeholder=""
+                        value="Lorem ipsum dolor sit amet"
+                      />
+                    </div>
+                    <div class="input-field">
+                     <button class="btn file-input__label">
+                      add new</button>
+                    </div>
+                    <div class="upload-picture">
+                      <div class="img-back">
+                        <img class="img-up" src="images/upload-picture.svg" alt="">
+                        <img class="icon-up" src="images/add-picture.svg" alt="">
+                      </div>
+                      <div class="img-content">
+                        <a href="">
+                          <i class="fas fa-camera"></i>
+                          upload new picture 
+                        </a>
+                        <button class="btn btn-purple-400">
+                          save
+                          </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="create-new">
+                    <button class="btn btn-purple-400">
+                      Save changes
+                      </button>
+                </div>
+              </form>
+            </div>
+        </div>        
+    </div>
+</section>
+<!-- end section mentor-dashboard -->
+<!-- footer -->
+<footer>
+    <div class="container">
+        <div class="footer-info">
+            <h5>ToBeHERO  Inc. © Copyright 2021. All Rights Reserved.</h5>
+            <ul class="icon-foooter">
+                <li> <a href=""><i class="fab fa-twitter"></i></a> </li>
+                <li><a href=""><i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<!-- footer -->
+<script src="js/main.js"></script>
+</body>
+</html>

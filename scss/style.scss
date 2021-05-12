@@ -87,7 +87,7 @@ select {
   background-color: #f3f4f7;
   border: none;
   border-radius: 5px;
-  padding: 0.5rem 0;
+  padding: 0.35rem 0;
 }
 
 input[type="text"],
@@ -1949,6 +1949,79 @@ header nav .nav-mentor{
         }
       }
     }
+    //Mentor Dashboard basic-info
+    .basic-info-form{
+      color: $text-color;
+
+      img{
+        width: auto;
+      }
+      input,select{
+        background-color: #fff;
+        border: 1px solid $purple-200;
+      }
+      select{
+        padding: .35rem .6rem .35rem .1rem;
+        margin-right: 0.25rem;
+      }
+      textarea {
+        width: 100%;
+        background-color: #fff;
+        border: none;
+        border-radius: 7px;
+        padding: 0.5rem 1rem;
+        color: $purple-gray;
+        resize: none;
+      }
+      sup{
+        color: $purple-gray;
+        margin: .25rem;
+      }
+      .Birthdate-mentor {
+        background-image: url(../images/Birthdate-icon.svg);
+      }
+      .Languages-mentor,.Occupation-mentor,.Certificates-mentor{
+        background-image: none;
+      }
+      .Certificates-mentor{
+        margin-bottom: 0.25rem;
+      }
+      .file-input__label{
+        background-color: $purple-500;
+        padding: .25rem 1.25rem;
+        border-radius: 25px;
+      }
+      .upload-picture{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 3rem;
+        .img-back {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .img-up {
+              border: 1px solid $purple-200;
+              border-radius: 50%;
+            }
+            .icon-up {
+            position: absolute;
+            }
+          img{
+            width: auto;
+            cursor: pointer;
+          }
+        }
+        .img-content {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          a{
+            color: $purple-300;
+          }
+      }
+      }
+    }
     // mentor-dashboard-courses
     .dashboard-course{
       background-color: #f3f4f7;
@@ -2197,6 +2270,9 @@ footer{
    .hr-section-19 .purchase-container{
      max-width: 100%;
    }
+   .hr-section-21 .mentor-dashboard .basic-info-form .upload-picture{
+     margin-top: 0.25rem;
+   }
 }
 @media screen and (max-width: 576px){
   .hr-section-1{
@@ -2286,7 +2362,7 @@ footer{
     display: grid;
   }
   .hr-section-21{
-    padding: 15px 25px;
+    padding: 15px 0px;
   }
   .hr-section-21 .mentor-dashboard{
     flex-direction: column;

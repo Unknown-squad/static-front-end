@@ -103,7 +103,7 @@ select {
   background-color: #f3f4f7;
   border: none;
   border-radius: 5px;
-  padding: 0.5rem 0;
+  padding: 0.35rem 0;
 }
 
 input[type="text"],
@@ -3156,6 +3156,94 @@ header nav .nav-mentor li.active:hover a {
   display: block;
 }
 
+.hr-section-21 .mentor-dashboard .basic-info-form {
+  color: #414141;
+}
+
+.hr-section-21 .mentor-dashboard .basic-info-form img {
+  width: auto;
+}
+
+.hr-section-21 .mentor-dashboard .basic-info-form input, .hr-section-21 .mentor-dashboard .basic-info-form select {
+  background-color: #fff;
+  border: 1px solid #6592FD;
+}
+
+.hr-section-21 .mentor-dashboard .basic-info-form select {
+  padding: .35rem .6rem .35rem .1rem;
+  margin-right: 0.25rem;
+}
+
+.hr-section-21 .mentor-dashboard .basic-info-form textarea {
+  width: 100%;
+  background-color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 0.5rem 1rem;
+  color: #77758E;
+  resize: none;
+}
+
+.hr-section-21 .mentor-dashboard .basic-info-form sup {
+  color: #77758E;
+  margin: .25rem;
+}
+
+.hr-section-21 .mentor-dashboard .basic-info-form .Birthdate-mentor {
+  background-image: url(../images/Birthdate-icon.svg);
+}
+
+.hr-section-21 .mentor-dashboard .basic-info-form .Languages-mentor, .hr-section-21 .mentor-dashboard .basic-info-form .Occupation-mentor, .hr-section-21 .mentor-dashboard .basic-info-form .Certificates-mentor {
+  background-image: none;
+}
+
+.hr-section-21 .mentor-dashboard .basic-info-form .Certificates-mentor {
+  margin-bottom: 0.25rem;
+}
+
+.hr-section-21 .mentor-dashboard .basic-info-form .file-input__label {
+  background-color: #343090;
+  padding: .25rem 1.25rem;
+  border-radius: 25px;
+}
+
+.hr-section-21 .mentor-dashboard .basic-info-form .upload-picture {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 3rem;
+}
+
+.hr-section-21 .mentor-dashboard .basic-info-form .upload-picture .img-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr-section-21 .mentor-dashboard .basic-info-form .upload-picture .img-back .img-up {
+  border: 1px solid #6592FD;
+  border-radius: 50%;
+}
+
+.hr-section-21 .mentor-dashboard .basic-info-form .upload-picture .img-back .icon-up {
+  position: absolute;
+}
+
+.hr-section-21 .mentor-dashboard .basic-info-form .upload-picture .img-back img {
+  width: auto;
+  cursor: pointer;
+}
+
+.hr-section-21 .mentor-dashboard .basic-info-form .upload-picture .img-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hr-section-21 .mentor-dashboard .basic-info-form .upload-picture .img-content a {
+  color: #8C61FF;
+}
+
 .hr-section-21 .mentor-dashboard .dashboard-course {
   background-color: #f3f4f7;
   width: 100%;
@@ -3414,6 +3502,9 @@ footer .footer-info .icon-foooter li a {
   .hr-section-19 .purchase-container {
     max-width: 100%;
   }
+  .hr-section-21 .mentor-dashboard .basic-info-form .upload-picture {
+    margin-top: 0.25rem;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -3504,7 +3595,7 @@ footer .footer-info .icon-foooter li a {
     display: grid;
   }
   .hr-section-21 {
-    padding: 15px 25px;
+    padding: 15px 0px;
   }
   .hr-section-21 .mentor-dashboard {
     flex-direction: column;
