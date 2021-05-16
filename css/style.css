@@ -3156,25 +3156,32 @@ header nav .nav-mentor li.active:hover a {
   display: block;
 }
 
-.hr-section-21 .mentor-dashboard .basic-info-form {
+.hr-section-21 .mentor-dashboard .dashboard-basic-info {
+  background-color: #f3f4f7;
+  width: 100%;
+  padding: 2rem 1rem 1.5rem;
+  border-radius: 10px;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form {
   color: #414141;
 }
 
-.hr-section-21 .mentor-dashboard .basic-info-form img {
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form img {
   width: auto;
 }
 
-.hr-section-21 .mentor-dashboard .basic-info-form input, .hr-section-21 .mentor-dashboard .basic-info-form select {
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form input, .hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form select {
   background-color: #fff;
   border: 1px solid #6592FD;
 }
 
-.hr-section-21 .mentor-dashboard .basic-info-form select {
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form select {
   padding: .35rem .6rem .35rem .1rem;
   margin-right: 0.25rem;
 }
 
-.hr-section-21 .mentor-dashboard .basic-info-form textarea {
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form textarea {
   width: 100%;
   background-color: #fff;
   border: none;
@@ -3184,63 +3191,63 @@ header nav .nav-mentor li.active:hover a {
   resize: none;
 }
 
-.hr-section-21 .mentor-dashboard .basic-info-form sup {
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form sup {
   color: #77758E;
   margin: .25rem;
 }
 
-.hr-section-21 .mentor-dashboard .basic-info-form .Birthdate-mentor {
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .Birthdate-mentor {
   background-image: url(../images/Birthdate-icon.svg);
 }
 
-.hr-section-21 .mentor-dashboard .basic-info-form .Languages-mentor, .hr-section-21 .mentor-dashboard .basic-info-form .Occupation-mentor, .hr-section-21 .mentor-dashboard .basic-info-form .Certificates-mentor {
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .Languages-mentor, .hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .Occupation-mentor, .hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .Certificates-mentor {
   background-image: none;
 }
 
-.hr-section-21 .mentor-dashboard .basic-info-form .Certificates-mentor {
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .Certificates-mentor {
   margin-bottom: 0.25rem;
 }
 
-.hr-section-21 .mentor-dashboard .basic-info-form .file-input__label {
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .file-input__label {
   background-color: #343090;
   padding: .25rem 1.25rem;
   border-radius: 25px;
 }
 
-.hr-section-21 .mentor-dashboard .basic-info-form .upload-picture {
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .upload-picture {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-top: 3rem;
 }
 
-.hr-section-21 .mentor-dashboard .basic-info-form .upload-picture .img-back {
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .upload-picture .img-back {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.hr-section-21 .mentor-dashboard .basic-info-form .upload-picture .img-back .img-up {
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .upload-picture .img-back .img-up {
   border: 1px solid #6592FD;
   border-radius: 50%;
 }
 
-.hr-section-21 .mentor-dashboard .basic-info-form .upload-picture .img-back .icon-up {
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .upload-picture .img-back .icon-up {
   position: absolute;
 }
 
-.hr-section-21 .mentor-dashboard .basic-info-form .upload-picture .img-back img {
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .upload-picture .img-back img {
   width: auto;
   cursor: pointer;
 }
 
-.hr-section-21 .mentor-dashboard .basic-info-form .upload-picture .img-content {
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .upload-picture .img-content {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
 
-.hr-section-21 .mentor-dashboard .basic-info-form .upload-picture .img-content a {
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .upload-picture .img-content a {
   color: #8C61FF;
 }
 
@@ -3282,6 +3289,151 @@ header nav .nav-mentor li.active:hover a {
   font-size: 14px;
   font-weight: 300;
   color: #77758E;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service {
+  background-color: #f3f4f7;
+  width: 100%;
+  padding: 2rem 1rem 1.5rem;
+  border-radius: 10px;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service form, .hr-section-21 .mentor-dashboard .dashboard-course-service form div {
+  padding-bottom: 0;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details {
+  color: #414141;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details input[type="text"] {
+  background-image: none;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details input {
+  background-color: #fff;
+  border: 1px solid #6592FD;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .select-topic-price {
+  display: flex;
+  gap: 11px;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .select-topic-price .select-topic {
+  position: relative;
+  flex: 0 1 71%;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .select-topic-price .select-topic select {
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 1px solid #6592FD;
+  background: #fff;
+  padding: .35rem .5em;
+  color: #414141;
+  cursor: pointer;
+  height: auto;
+  background-image: none;
+  border-radius: 7px;
+  height: 100%;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .select-topic-price .select-topic::after {
+  content: url(../images/select-arrow-200.svg);
+  position: absolute;
+  top: 1.85rem;
+  right: .5rem;
+  cursor: pointer;
+  pointer-events: none;
+  transition: .25s all ease;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .select-topic-price .price {
+  flex: 0 0 29%;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .select-topic-price .price input {
+  width: 83%;
+  padding: .3rem 1rem;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .select-topic-price .price span {
+  margin-left: 3px;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .main-picture .title-main-picture {
+  padding-bottom: 0;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .main-picture .input-field {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .main-picture .input-field .upload-img-input {
+  display: none;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .main-picture .input-field .btn-purple-400 {
+  padding: .35rem 1.2rem;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service textarea {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #6592FD;
+  border-radius: 7px;
+  padding: .2rem 1rem;
+  resize: none;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service .service-includes .service-remove {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service .service-includes .service-remove .btn-remove {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #D8D8D8;
+  padding: .2rem 2rem;
+  border-radius: 25px;
+  color: #7D7D7D;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service .service-includes .service-add {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service .service-includes .service-add .btn-add {
+  background-color: #6592FD;
+  padding: .2rem 2.25rem;
+  border-radius: 25px;
+  width: 115px;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service .service-includes .btn {
+  padding: .2rem 2rem;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service .save-edits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr-section-21 .mentor-dashboard .dashboard-course-service .save-edits .btn {
+  width: 200px;
+  font-size: 14px;
 }
 
 .hr-section-21 .mentor-dashboard .create-new {
@@ -3404,6 +3556,16 @@ footer .footer-info .icon-foooter li a {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .hr-section-21 {
+    padding: 15px 0;
+  }
+  .hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .select-topic-price {
+    flex-direction: column;
+    gap: 2px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .container {
     max-width: 94%;
@@ -3430,6 +3592,13 @@ footer .footer-info .icon-foooter li a {
   .hr-section-13,
   .hr-section-14 {
     padding: 15px 0;
+  }
+  .hr-section-21 {
+    padding: 15px 80px;
+  }
+  .hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .select-topic-price {
+    flex-direction: row;
+    gap: 11px;
   }
 }
 

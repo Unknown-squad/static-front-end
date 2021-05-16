@@ -152,6 +152,7 @@ input[type="tel"] {
   padding: .2rem 2.5rem;
   border-radius: 25px;
 }
+
 /*global*/
 /* margin and padding*/
 
@@ -1950,78 +1951,85 @@ header nav .nav-mentor{
       }
     }
     //Mentor Dashboard basic-info
-    .basic-info-form{
-      color: $text-color;
-
-      img{
-        width: auto;
-      }
-      input,select{
-        background-color: #fff;
-        border: 1px solid $purple-200;
-      }
-      select{
-        padding: .35rem .6rem .35rem .1rem;
-        margin-right: 0.25rem;
-      }
-      textarea {
-        width: 100%;
-        background-color: #fff;
-        border: none;
-        border-radius: 7px;
-        padding: 0.5rem 1rem;
-        color: $purple-gray;
-        resize: none;
-      }
-      sup{
-        color: $purple-gray;
-        margin: .25rem;
-      }
-      .Birthdate-mentor {
-        background-image: url(../images/Birthdate-icon.svg);
-      }
-      .Languages-mentor,.Occupation-mentor,.Certificates-mentor{
-        background-image: none;
-      }
-      .Certificates-mentor{
-        margin-bottom: 0.25rem;
-      }
-      .file-input__label{
-        background-color: $purple-500;
-        padding: .25rem 1.25rem;
-        border-radius: 25px;
-      }
-      .upload-picture{
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        margin-top: 3rem;
-        .img-back {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          .img-up {
-              border: 1px solid $purple-200;
-              border-radius: 50%;
-            }
-            .icon-up {
-            position: absolute;
-            }
-          img{
-            width: auto;
-            cursor: pointer;
-          }
+    .dashboard-basic-info{
+      background-color: #f3f4f7;
+      width: 100%;
+      padding: 2rem 1rem 1.5rem;
+      border-radius: 10px;
+      .basic-info-form{
+        color: $text-color;
+  
+        img{
+          width: auto;
         }
-        .img-content {
+        input,select{
+          background-color: #fff;
+          border: 1px solid $purple-200;
+        }
+        select{
+          padding: .35rem .6rem .35rem .1rem;
+          margin-right: 0.25rem;
+        }
+        textarea {
+          width: 100%;
+          background-color: #fff;
+          border: none;
+          border-radius: 7px;
+          padding: 0.5rem 1rem;
+          color: $purple-gray;
+          resize: none;
+        }
+        sup{
+          color: $purple-gray;
+          margin: .25rem;
+        }
+        .Birthdate-mentor {
+          background-image: url(../images/Birthdate-icon.svg);
+        }
+        .Languages-mentor,.Occupation-mentor,.Certificates-mentor{
+          background-image: none;
+        }
+        .Certificates-mentor{
+          margin-bottom: 0.25rem;
+        }
+        .file-input__label{
+          background-color: $purple-500;
+          padding: .25rem 1.25rem;
+          border-radius: 25px;
+        }
+        .upload-picture{
           display: flex;
-          flex-direction: column;
-          gap: 5px;
-          a{
-            color: $purple-300;
+          align-items: center;
+          gap: 10px;
+          margin-top: 3rem;
+          .img-back {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .img-up {
+                border: 1px solid $purple-200;
+                border-radius: 50%;
+              }
+              .icon-up {
+              position: absolute;
+              }
+            img{
+              width: auto;
+              cursor: pointer;
+            }
           }
-      }
+          .img-content {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            a{
+              color: $purple-300;
+            }
+        }
+        }
       }
     }
+    
     // mentor-dashboard-courses
     .dashboard-course{
       background-color: #f3f4f7;
@@ -2057,6 +2065,140 @@ header nav .nav-mentor{
           /* mentor course info */
       }
      
+    }
+    // mentor-dashboard-course-service-info
+    .dashboard-course-service{
+      background-color: #f3f4f7;
+      width: 100%;
+      padding: 2rem 1rem 1.5rem;
+      border-radius: 10px;
+      form, form div{
+        padding-bottom: 0;
+      }
+      .service-info-details{
+        color: $text-color;
+        input[type="text"]{
+          background-image: none;
+        }
+        input{
+          background-color: #fff;
+          border: 1px solid $purple-200;
+        }
+        .select-topic-price{
+          display: flex;
+          gap: 11px;
+         
+          .select-topic{
+            position: relative;
+            flex: 0 1 71%;
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            select{
+              -webkit-appearance: none;
+              -moz-appearance: none;
+              -ms-appearance: none;
+              appearance: none;
+              outline: 0;
+              box-shadow: none;
+              border: 1px solid $purple-200;
+              background: #fff;
+              padding: .35rem .5em;
+              color: #414141;
+              cursor: pointer;
+              height: auto;
+              background-image: none;
+              border-radius: 7px;
+              height: 100%;
+            }
+            &::after{
+              content: url(../images/select-arrow-200.svg);
+              position: absolute;
+              top: 1.85rem;
+              right: .5rem;
+              cursor: pointer;
+              pointer-events: none;
+              -webkit-transition: .25s all ease;
+              -o-transition: .25s all ease;
+              transition: .25s all ease;
+            }
+          }
+          .price{
+            flex: 0 0 29%;
+            input{
+              width: 83%;
+              padding: .3rem 1rem;
+            }
+            span{
+              margin-left: 3px;
+            }
+          }
+        }
+        .main-picture{
+          .title-main-picture{
+            padding-bottom: 0;
+          }
+          .input-field{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            .upload-img-input{
+              display: none;
+            }
+            .btn-purple-400{
+              padding: .35rem 1.2rem;
+            }
+          }
+          
+        }
+      }
+      textarea{
+        width: 100%;
+        background-color: #fff;
+        border: 1px solid $purple-200;
+        border-radius: 7px;
+        padding: .2rem 1rem;
+        resize: none;
+      }
+      .service-includes{
+        .service-remove{
+          display: flex;
+          gap: 10px;
+          margin-bottom: 10px;
+          .btn-remove{
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #D8D8D8;
+            padding: .2rem 2rem;
+            border-radius: 25px;
+            color: #7D7D7D;
+          }
+          
+        }
+        .service-add{
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          .btn-add{
+            background-color: $purple-200;
+            padding: .2rem 2.25rem;
+            border-radius: 25px;
+            width: 115px;
+          }
+        }
+        .btn{
+          padding: .2rem 2rem;
+        } 
+      }
+      .save-edits{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .btn{
+          width: 200px;
+          font-size: 14px;
+        }
+      }
     }
     .create-new{
        display: flex;
@@ -2171,7 +2313,15 @@ footer{
     min-height: calc(100vh - 122px);
   }
 }
-
+@media screen and (max-width: 1024px){
+  .hr-section-21{
+    padding: 15px 0;
+  }
+  .hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .select-topic-price{
+    flex-direction: column;
+    gap: 2px;
+  }
+}
 @media screen and (max-width: 992px){
   .container{
     max-width: 94%;
@@ -2198,6 +2348,13 @@ footer{
   .hr-section-13,
   .hr-section-14{
     padding: 15px 0;
+  }
+  .hr-section-21{
+    padding: 15px 80px;
+  }
+  .hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .select-topic-price{
+    flex-direction: row;
+    gap: 11px;
   }
 }
 @media screen and (max-width: 768px){
