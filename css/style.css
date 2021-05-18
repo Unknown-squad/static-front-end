@@ -3483,6 +3483,240 @@ header nav .nav-mentor li.active:hover a {
 }
 
 /* end page  mentor-dashboard*/
+/*start page Mentor course control*/
+.hr-section-22 {
+  padding: 15px 80px 60px;
+  min-height: calc(100vh - 119px);
+}
+
+.hr-section-22 h4 {
+  text-align: center;
+  color: #414141;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.hr-section-22 .name-plate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 2.5rem 0;
+}
+
+.hr-section-22 .name-plate .guardian-name-plate {
+  border: 1px solid #8C61FF;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  padding: 1.25rem 0;
+  color: #343090;
+  position: relative;
+}
+
+.hr-section-22 .name-plate .guardian-name-plate .guardian-plate-phone-number * {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 12px;
+  color: #414141;
+}
+
+.hr-section-22 .name-plate .plate-title {
+  border: 1px solid #8C61FF;
+  border-radius: 25px;
+  padding: .3rem 3rem;
+  background-color: white;
+  position: absolute;
+  top: -1.25rem;
+}
+
+.hr-section-22 .name-plate .plate-title p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.hr-section-22 .name-plate .inner-name-plate p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.hr-section-22 .name-plate .hero-name-plate {
+  border: 1px solid #8C61FF;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  padding: 1.75rem 0;
+  color: #343090;
+  position: relative;
+}
+
+.hr-section-22 .mentor-appointment-control-container {
+  row-gap: 1rem;
+}
+
+.hr-section-22 .mentor-appointment-control-container h4 {
+  color: #343090;
+}
+
+.hr-section-22 .mentor-appointment-control-container .appointment-control-item {
+  display: flex;
+  background-color: #F3F4F7;
+  align-items: center;
+  border-radius: 12px;
+  gap: .5rem;
+  padding: .5rem;
+  border: 1px solid transparent;
+}
+
+.hr-section-22 .mentor-appointment-control-container .appointment-control-item.live-active {
+  border: 1px solid #6592FD;
+  box-shadow: 0px 0px 4px #6592FD;
+}
+
+.hr-section-22 .mentor-appointment-control-container .appointment-control-item.live-active .appointment-date,
+.hr-section-22 .mentor-appointment-control-container .appointment-control-item.live-active .appointment-time,
+.hr-section-22 .mentor-appointment-control-container .appointment-control-item.live-active .appointment-title {
+  border: 1px solid #6592FD;
+}
+
+.hr-section-22 .mentor-appointment-control-container .appointment-sub-item p {
+  color: #414141;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.hr-section-22 .mentor-appointment-control-container .appointment-date,
+.hr-section-22 .mentor-appointment-control-container .appointment-time,
+.hr-section-22 .mentor-appointment-control-container .appointment-title {
+  background-color: white;
+  padding: .3rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 7px;
+}
+
+.hr-section-22 .mentor-appointment-control-container .appointment-title {
+  width: 17.45rem;
+}
+
+.hr-section-22 .mentor-appointment-control-container .appointment-button {
+  display: flex;
+  gap: .5rem;
+}
+
+.hr-section-22 .mentor-appointment-control-container .appointment-button button {
+  cursor: pointer;
+}
+
+.hr-section-22 .mentor-appointment-control-container .mentor-control-btn button,
+.hr-section-22 .mentor-appointment-control-container .live-active .appointment-button .mentor-live-btn button {
+  background-color: #5F59F7;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: .4rem 1.5rem;
+  opacity: 1;
+}
+
+.hr-section-22 .mentor-appointment-control-container .mentor-live-btn button {
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: .4rem 1.5rem;
+  background-color: #6592FD;
+  opacity: 0.4;
+}
+
+.hr-section-22 .new-appointment-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.hr-section-22 .new-appointment-container h4 {
+  color: #343090;
+}
+
+.hr-section-22 .new-appointment-container .new-appointment-form {
+  border: 1px solid #6592FD;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 85%;
+}
+
+.hr-section-22 .new-appointment-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hr-section-22 .new-appointment-container form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.hr-section-22 .new-appointment-container form div label {
+  font-size: 16px;
+  font-weight: 300;
+  color: #414141;
+}
+
+.hr-section-22 .new-appointment-container form div input {
+  padding: .2rem 0 .2rem .35rem;
+  border-radius: 10px;
+  border: 1px solid #A8A8A8;
+  color: #414141;
+}
+
+.hr-section-22 .new-appointment-container form .new-appointment-date input {
+  background-image: url(../images/Birthdate-icon-colored.svg);
+  background-repeat: no-repeat;
+  background-position: 97% 40%;
+  background-size: 14px;
+}
+
+.hr-section-22 .new-appointment-container form .new-appointment-date input::-webkit-calendar-picker-indicator {
+  background: none;
+}
+
+.hr-section-22 .new-appointment-container form .new-appointment-date input::-webkit-datetime-edit-month-field {
+  color: #414141;
+}
+
+.hr-section-22 .new-appointment-container form .new-appointment-date input::-webkit-datetime-edit-day-field {
+  color: #414141;
+}
+
+.hr-section-22 .new-appointment-container form .new-appointment-date input::-webkit-datetime-edit-year-field {
+  color: #414141;
+}
+
+.hr-section-22 .new-appointment-container form .new-appointment-time input::-webkit-calendar-picker-indicator {
+  background: none;
+}
+
+.hr-section-22 .new-appointment-container form .new-appointment-title textarea {
+  resize: none;
+  border: 1px solid #A8A8A8;
+  border-radius: 10px;
+}
+
+.hr-section-22 .new-appointment-container .add-new-appointment-button .add-new-button {
+  background-color: #5F59F7;
+  border-radius: 25px;
+  color: white;
+  padding: .2rem 3rem;
+  margin: 0 auto;
+  width: auto;
+}
+
+/*end page Mentor course control*/
 /*start footer*/
 footer {
   background-color: #343090;
@@ -3533,6 +3767,9 @@ footer .footer-info .icon-foooter li a {
   .container {
     max-width: 1320px;
   }
+  .hr-section-22 .mentor-appointment-control-container .appointment-title {
+    width: 24.75rem;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -3563,6 +3800,9 @@ footer .footer-info .icon-foooter li a {
   .hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .select-topic-price {
     flex-direction: column;
     gap: 2px;
+  }
+  .hr-section-22 .mentor-appointment-control-container .appointment-title {
+    width: 10rem;
   }
 }
 
@@ -3599,6 +3839,12 @@ footer .footer-info .icon-foooter li a {
   .hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .select-topic-price {
     flex-direction: row;
     gap: 11px;
+  }
+  .hr-section-22 {
+    padding: 15px 0;
+  }
+  .hr-section-22 .mentor-appointment-control-container .appointment-title {
+    width: 16.25rem;
   }
 }
 
@@ -3768,6 +4014,17 @@ footer .footer-info .icon-foooter li a {
   }
   .hr-section-21 .mentor-dashboard {
     flex-direction: column;
+  }
+  .hr-section-22 .name-plate {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  .hr-section-22 .mentor-appointment-control-container .appointment-control-item {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .hr-section-22 .mentor-appointment-control-container .appointment-title {
+    width: auto;
   }
   footer .footer-info {
     display: block;
