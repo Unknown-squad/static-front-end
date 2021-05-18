@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image-icon" href="images/title-icon.svg" />
+  <title>To Be Hero</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/5638fbe671.js"></script>
+</head>
+
+<body>
+  <!-- start header -->
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <a href="">
+            <h1>TO BE</h1><span>HERO</span>
+          </a>
+        </div>
+        <div class="navbar-ham">
+          <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="navbar nav-mentor" id="navbar">
+            <li><a href="">home</a></li>
+            <li class="active"><a href="">Dashboard</a></li>
+            <li><a href="">Explore</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- end header -->
+  <!-- start section mentor-dashboard -->
+  <section class="hr-section-21">
+    <div class="container">
+      <div class="mentor-dashboard">
+        <ul class="nav-mentor-dashboard">
+          <li>
+            <a href="">Basic info</a>
+            <div class="mentor-overlay"></div>
+          </li>
+          <li>
+            <a href="">Courses</a>
+            <div class="mentor-overlay active"></div>
+          </li>
+          <li>
+            <a href="">Balance</a>
+            <div class="mentor-overlay"></div>
+          </li>
+          <li>
+            <a href="">Analytics</a>
+            <div class="mentor-overlay"></div>
+          </li>
+        </ul>
+        <!--start dashboard-course-service -->
+        <div class="dashboard-course-service">
+          <h4>Service Info. and details</h4>
+          <!-- start service-info-details -->
+          <form action="" class="service-info-details">
+            <div class="row">
+              <div class="col-lg-5 pl-0 col-12">
+                <div class="serivice-title">
+                  <div class="input-field">
+                    <label for="serivice-title-input">Service title</label><br />
+                    <input
+                      type="text"
+                      id="serivice-title-input"
+                      name="serivice-title-input"
+                      class="serivice-title-input"
+                      placeholder="enter title"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 pl-0 col-12">
+                <div class="select-topic-price">
+                    <div class="select-topic">
+                        <label for="topic">Select topic</label>
+                        <select name="topic" id="topic">
+                            <option selected disabled>pick the topic</option>
+                            <option value="1">Programming</option>
+                            <option value="2">Programming</option>
+                            <option value="3">Programming</option>
+                        </select>
+                    </div>
+                    <div class="price">
+                      <div class="input-field">
+                        <label for="price-input">price</label><br />
+                        <input
+                          type="text"
+                          id="price-input"
+                          name="price"
+                          class="price-input"
+                          placeholder=""
+                          required
+                        /><span>$</span>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-3 pl-0 col-12">
+                <div class="main-picture">
+                  <div class="title-main-picture">
+                    <label for="upload-img-title">Main picture</label>
+                  </div>
+                  <div class="input-field">
+                    
+                    <label for="upload-img-input" class="btn btn-purple-400">upload</label>
+                    <input
+                    type="file"
+                    id="upload-img-input"
+                    name="upload"
+                    class="upload-img-input"
+                    placeholder=""
+                    required
+                  />                   
+                    <input
+                      type="text"
+                      id="upload-img-title"
+                      name="upload"
+                      class="upload-img-title"
+                      placeholder=""
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 pl-0 pt-1">
+                <div class="input-field">
+                  <label for="Description">Service Description</label><br />
+                  <textarea name="" id="Description" cols="30" rows="7" placeholder="Write service description"></textarea>
+                </div>
+              </div>
+              <div class="col-lg-7 col-12 pl-0 pb-3">
+                <div class="service-includes">
+                  <div class="input-field">
+                    <label for="service-includes-input">This service includes</label><br />
+                  
+                    <div class="service-remove">
+                      <input
+                      type="text"
+                      id="service-includes-input"
+                      name="service-includes-input"
+                      class="service-includes-input"
+                      placeholder=""
+                      required
+                    />
+                      <button class="btn btn-remove">
+                        remove
+                      </button>
+                    </div>
+                    <div class="service-remove">
+                      <input
+                      type="text"
+                      id="service-includes-input"
+                      name="service-includes-input"
+                      class="service-includes-input"
+                      placeholder=""
+                      required
+                    />
+                      <button class="btn btn-purple-400">
+                        remove
+                      </button>
+                    </div>
+                    <div class="service-remove">
+                      <input
+                      type="text"
+                      id="service-includes-input"
+                      name="service-includes-input"
+                      class="service-includes-input"
+                      placeholder=""
+                      required
+                    />
+                      <button class="btn btn-purple-400">
+                        remove
+                      </button>
+                    </div>
+                    <div class="service-add">
+                      <button class="btn btn-add">
+                        add
+                      </button>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="col-lg-5 col-12 pl-0 pb-3">
+                <div class="main-picture">
+                  <div class="title-other-media">
+                    <label for="upload-title-other-media">Other Media</label>
+                  </div>
+                  <div class="input-field">
+                    
+                    <label for="upload-img-other-media" class="btn btn-purple-400">upload</label>
+                    <input
+                    type="file"
+                    id="upload-img-other-media"
+                    name="upload"
+                    class="upload-img-input"
+                    placeholder=""
+                    required
+                  />                   
+                    <input
+                      type="text"
+                      id="upload-title-other-media"
+                      name="upload"
+                      class="upload-img-title"
+                      placeholder=""
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="save-edits">
+              <button class="btn btn-purple-400">
+                Save edits
+              </button>
+            </div>
+          </form>
+          <!-- end service-info-details -->
+        </div>
+        <!--end dashboard-course-service -->
+      </div>
+    </div>
+  </section>
+  <!-- end section mentor-dashboard -->
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-info">
+        <h5>ToBeHERO Inc. © Copyright 2021. All Rights Reserved.</h5>
+        <ul class="icon-foooter">
+          <li> <a href=""><i class="fab fa-twitter"></i></a> </li>
+          <li><a href=""><i class="fab fa-github"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- footer -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
