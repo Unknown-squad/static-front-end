@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 :focus {
@@ -42,7 +42,7 @@ section {
 }
 
 .btn {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   cursor: pointer;
   border: none;
   color: white;
@@ -161,22 +161,22 @@ input[type="tel"] {
   background: #343090;
   border-radius: 25px;
   width: 200px;
-  padding: .3rem 0;
+  padding: 0.3rem 0;
 }
 
 .btn-purple-200 {
-  background: #6592FD;
+  background: #6592fd;
   border-radius: 25px;
   width: 200px;
-  padding: .3rem 0;
+  padding: 0.3rem 0;
 }
 
 .btn-purple-400 {
   margin-left: auto;
   margin-right: auto;
-  background-color: #5F59F7;
+  background-color: #5f59f7;
   /* $purple-400 */
-  padding: .2rem 2.5rem;
+  padding: 0.2rem 2.5rem;
   border-radius: 25px;
 }
 
@@ -1228,7 +1228,7 @@ input[type="tel"] {
 /* fontsize: 24-20-18-16-14(px)*/
 /*start navbar*/
 header {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   box-shadow: 0px -3px 22px #32326b69;
   margin-bottom: 10px;
 }
@@ -1262,7 +1262,7 @@ header nav .logo a span {
   font-size: 20px;
   font-family: "Hachi Maru Pop", cursive;
   font-weight: bold;
-  color: #8C61FF;
+  color: #8c61ff;
   text-align: center;
   font-style: normal;
   padding: 1px 0 0 5px;
@@ -1298,14 +1298,14 @@ header nav .navbar li:last-child {
 }
 
 header nav .navbar li a {
-  color: #5F59F7;
+  color: #5f59f7;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   transition: all 0.4s;
 }
 
 header nav .navbar li a:hover {
-  border-bottom: 2px solid #8C61FF;
+  border-bottom: 2px solid #8c61ff;
 }
 
 header nav .navbar li .hero {
@@ -1319,7 +1319,7 @@ header nav .navbar li .hero:hover {
 }
 
 header nav .navbar li .bg-purple-400 {
-  background-color: #5F59F7;
+  background-color: #5f59f7;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   color: #fff;
@@ -1367,7 +1367,7 @@ header nav .navbar li .bg-purple-400:hover {
   border-radius: 24px;
   text-align: center;
   margin-bottom: 25px;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .hr-section-1 .ex-now a {
@@ -1377,7 +1377,7 @@ header nav .navbar li .bg-purple-400:hover {
 }
 
 .hr-section-1 .ex-now:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .hr-section-1 .ex-now:hover:before {
@@ -1397,7 +1397,7 @@ header nav .navbar li .bg-purple-400:hover {
   padding: 3px 0;
   width: 120px;
   font-size: 14px;
-  background-color: #8C61FF;
+  background-color: #8c61ff;
   border-radius: 24px;
   margin-right: 10px;
   margin-top: 10px;
@@ -1421,24 +1421,24 @@ header nav .navbar li .bg-purple-400:hover {
 
 .hr-section-2 .hero-icon-angle i {
   font-size: 20px;
-  color: #8C61FF;
-  border: 1px solid #8C61FF;
+  color: #8c61ff;
+  border: 1px solid #8c61ff;
   background-color: #fff;
   border-radius: 50%;
   padding: 10px 13px;
   cursor: pointer;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .hr-section-2 .hero-icon-angle i:hover {
-  background-color: #8C61FF;
+  background-color: #8c61ff;
   color: #fff;
 }
 
 .hr-section-2 h1 {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
-  color: #8C61FF;
+  color: #8c61ff;
   text-align: center;
   letter-spacing: 1px;
   margin-bottom: 30px;
@@ -1455,11 +1455,11 @@ header nav .navbar li .bg-purple-400:hover {
 
 .hr-section-2 .card-overlay {
   position: absolute;
-  top: .5rem;
+  top: 0.5rem;
   left: 1.5rem;
   right: 0;
-  bottom: -.75rem;
-  border: 2px solid #8C61FF;
+  bottom: -0.75rem;
+  border: 2px solid #8c61ff;
   z-index: 9999;
   border-radius: 7px;
 }
@@ -1479,7 +1479,7 @@ header nav .navbar li .bg-purple-400:hover {
 .hr-section-2 .card-help h6 {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
-  color: #77758E;
+  color: #77758e;
   font-weight: 300;
   margin-top: 5px;
   margin-bottom: 15px;
@@ -1488,14 +1488,14 @@ header nav .navbar li .bg-purple-400:hover {
 .hr-section-2 .card-help p {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  color: #77758E;
+  color: #77758e;
   line-height: 1.8;
 }
 
 /*end hr-section-2*/
 /*start hr-section-3*/
 .hr-section-3 h6 {
-  color: #6592FD;
+  color: #6592fd;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -1512,20 +1512,20 @@ header nav .navbar li .bg-purple-400:hover {
 }
 
 .hr-section-3 p {
-  color: #77758E;
+  color: #77758e;
   font-family: "Poppins", sans-serif;
   line-height: 1.8;
   margin-bottom: 10px;
 }
 
 .hr-section-3 .btn-arrow .btn-g-m-start {
-  background-color: #5F59F7;
+  background-color: #5f59f7;
   padding: 10px 25px;
   border-radius: 24px;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   margin-top: 10px;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .hr-section-3 .btn-arrow .btn-g-m-start a {
@@ -1533,7 +1533,7 @@ header nav .navbar li .bg-purple-400:hover {
 }
 
 .hr-section-3 .btn-arrow .btn-g-m-start:hover {
-  box-shadow: 4px 4px #44C2FD;
+  box-shadow: 4px 4px #44c2fd;
 }
 
 .hr-section-3 .btn-arrow img {
@@ -1541,7 +1541,7 @@ header nav .navbar li .bg-purple-400:hover {
 }
 
 .hr-section-3 .shadow-img img {
-  box-shadow: 10px 10px #5F59F7;
+  box-shadow: 10px 10px #5f59f7;
   border-radius: 10px;
 }
 
@@ -1553,7 +1553,7 @@ header nav .navbar li .bg-purple-400:hover {
 }
 
 .hr-section-3 .shadow-img-cy img {
-  box-shadow: 10px 10px #44C2FD;
+  box-shadow: 10px 10px #44c2fd;
   border-radius: 10px;
 }
 
@@ -1592,7 +1592,7 @@ header nav .navbar li .bg-purple-400:hover {
 
 .hr-section-4 .hero-img-p img {
   width: auto;
-  background-color: #E1E8F8;
+  background-color: #e1e8f8;
   padding: 10px;
   border-radius: 45%;
 }
@@ -1607,7 +1607,7 @@ header nav .navbar li .bg-purple-400:hover {
 .hr-section-4 .hero-img-p p {
   font-size: 14px;
   font-family: "Poppins", sans-serif;
-  color: #77758E;
+  color: #77758e;
   font-weight: 400;
   padding: 0;
   line-height: 1;
@@ -1646,17 +1646,17 @@ header nav .navbar li .bg-purple-400:hover {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   border-radius: 24px;
-  background-color: #5F59F7;
-  transition: all .4s ease-in-out;
+  background-color: #5f59f7;
+  transition: all 0.4s ease-in-out;
 }
 
 .hr-section-5 .met-or-gur button:hover {
-  box-shadow: 4px 4px #44C2FD;
+  box-shadow: 4px 4px #44c2fd;
 }
 
 .hr-section-5 .met-or-gur h1 {
   margin: 0 15px;
-  color: #5F59F7;
+  color: #5f59f7;
   font-weight: 300;
   font-family: "Poppins", sans-serif;
 }
@@ -1672,7 +1672,8 @@ header nav .navbar li .bg-purple-400:hover {
   text-align: center;
 }
 
-.hr-section-6 h2, .hr-section-6 p {
+.hr-section-6 h2,
+.hr-section-6 p {
   color: #343090;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -1684,7 +1685,7 @@ header nav .navbar li .bg-purple-400:hover {
 /* start page sign in*/
 /* start hr-section-7*/
 .hr-section-7 {
-  background-color: #F3F4F7;
+  background-color: #f3f4f7;
 }
 
 .hr-section-7 h1 {
@@ -1724,11 +1725,11 @@ header nav .navbar li .bg-purple-400:hover {
   top: 0;
   width: 100%;
   bottom: 0;
-  border: 3px solid #8C61FF;
+  border: 3px solid #8c61ff;
   z-index: 9999;
   max-width: 25.5%;
   border-radius: 10px;
-  opacity: .5;
+  opacity: 0.5;
   transform: translate(-3px, 5px);
 }
 
@@ -1740,11 +1741,11 @@ header nav .navbar li .bg-purple-400:hover {
 }
 
 .hr-section-7 .nav-form li .overlay-form:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .hr-section-7 .nav-form li .active {
-  border: 3px solid #8C61FF;
+  border: 3px solid #8c61ff;
   opacity: 1;
 }
 
@@ -1767,7 +1768,7 @@ header nav .navbar li .bg-purple-400:hover {
 /* end page sign in*/
 /* start page sign in-hero*/
 .header-signIn-hero {
-  padding: .5rem 0 .5rem 2rem;
+  padding: 0.5rem 0 0.5rem 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1775,7 +1776,7 @@ header nav .navbar li .bg-purple-400:hover {
 
 .header-signIn-hero .arrow img {
   width: auto;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .header-signIn-hero .arrow img:hover {
@@ -1790,7 +1791,7 @@ header nav .navbar li .bg-purple-400:hover {
 
 /* start hr-section-9*/
 .hr-section-9 {
-  background-color: #F3F4F7;
+  background-color: #f3f4f7;
   padding: 30px 60px;
 }
 
@@ -1804,7 +1805,7 @@ header nav .navbar li .bg-purple-400:hover {
 }
 
 .hr-section-9 .hero-signIn {
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   background: url(../images/hero-signIn.png) no-repeat;
   background-size: contain;
   height: 320px;
@@ -1848,13 +1849,13 @@ header nav .navbar li .bg-purple-400:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .hr-section-9 .btn-sign img {
   width: auto;
-  padding-left: .25rem;
-  transition: all .3s ease-in-out;
+  padding-left: 0.25rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .hr-section-9 .btn-sign:hover img {
@@ -1866,7 +1867,7 @@ header nav .navbar li .bg-purple-400:hover {
 /* start page sign up*/
 /* start hr-section-8*/
 .hr-section-8 {
-  background-color: #F3F4F7;
+  background-color: #f3f4f7;
   padding-bottom: 45rem;
 }
 
@@ -1908,11 +1909,11 @@ header nav .navbar li .bg-purple-400:hover {
   top: 0;
   width: 100%;
   bottom: 0;
-  border: 3px solid #8C61FF;
+  border: 3px solid #8c61ff;
   z-index: 9999;
   max-width: 30%;
   border-radius: 7px;
-  opacity: .5;
+  opacity: 0.5;
   transform: translate(-3px, 5px);
 }
 
@@ -1924,11 +1925,11 @@ header nav .navbar li .bg-purple-400:hover {
 }
 
 .hr-section-8 .nav-form li .overlay-form:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .hr-section-8 .nav-form li .active {
-  border: 3px solid #8C61FF;
+  border: 3px solid #8c61ff;
   opacity: 1;
 }
 
@@ -1956,7 +1957,7 @@ header nav .navbar li .bg-purple-400:hover {
 /* start page sign up-mentor-phase2*/
 /* start hr-section-10*/
 .hr-section-10 {
-  background-color: #F3F4F7;
+  background-color: #f3f4f7;
   padding: 20px 80px 45rem;
 }
 
@@ -1997,11 +1998,11 @@ header nav .navbar li .bg-purple-400:hover {
   top: 0;
   width: 100%;
   bottom: 0;
-  border: 3px solid #8C61FF;
+  border: 3px solid #8c61ff;
   z-index: 9999;
   max-width: 8.9rem;
   border-radius: 7px;
-  opacity: .5;
+  opacity: 0.5;
   transform: translate(-3px, 5px);
 }
 
@@ -2013,11 +2014,11 @@ header nav .navbar li .bg-purple-400:hover {
 }
 
 .hr-section-10 .nav-form li .overlay-form:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .hr-section-10 .nav-form li .active {
-  border: 3px solid #8C61FF;
+  border: 3px solid #8c61ff;
   opacity: 1;
 }
 
@@ -2136,9 +2137,9 @@ header nav .navbar li .bg-purple-400:hover {
 
 .hr-section-11 input[type="search"] {
   width: 73%;
-  background-color: #F3F4F7;
+  background-color: #f3f4f7;
   border-radius: 7px;
-  border: solid 1px #6592FD;
+  border: solid 1px #6592fd;
   padding: 0.25rem 2rem 0.25rem 0.5rem;
   outline: none;
 }
@@ -2155,7 +2156,7 @@ header nav .navbar li .bg-purple-400:hover {
 /* end hr-section-11*/
 /* end hr-section-12*/
 .hr-section-12 {
-  background-color: #F3F4F7;
+  background-color: #f3f4f7;
   padding: 0;
 }
 
@@ -2181,7 +2182,7 @@ header nav .navbar li .bg-purple-400:hover {
 .hr-section-12 .slider-container .slider-content .slider-item .card-img {
   position: relative;
   background-color: #fff;
-  padding: .75rem;
+  padding: 0.75rem;
   height: 100%;
   border-radius: 7px;
   margin-bottom: 5px;
@@ -2193,7 +2194,7 @@ header nav .navbar li .bg-purple-400:hover {
   right: 0;
   top: 0;
   bottom: 0;
-  border: 2px solid #8C61FF;
+  border: 2px solid #8c61ff;
   border-radius: 7px;
   transform: translate(4px, 4px);
 }
@@ -2207,7 +2208,7 @@ header nav .navbar li .bg-purple-400:hover {
 }
 
 .hr-section-12 .slider-container .slider-content .slider-item .card-name p {
-  color: #8C61FF;
+  color: #8c61ff;
 }
 
 .hr-section-12 .slider-container button {
@@ -2241,10 +2242,10 @@ header nav .navbar li .bg-purple-400:hover {
   appearance: none;
   outline: 0;
   box-shadow: none;
-  border: 1px solid #6592FD;
-  background: #F3F4F7;
+  border: 1px solid #6592fd;
+  background: #f3f4f7;
   flex: 1;
-  padding: 0 .5em;
+  padding: 0 0.5em;
   color: #414141;
   cursor: pointer;
   height: 100%;
@@ -2260,7 +2261,7 @@ header nav .navbar li .bg-purple-400:hover {
   width: 13rem;
   line-height: 3;
   overflow: hidden;
-  border-radius: .25em;
+  border-radius: 0.25em;
   height: 1.65rem;
 }
 
@@ -2268,12 +2269,12 @@ header nav .navbar li .bg-purple-400:hover {
 .hr-section-13 .services .select-services .filter::after {
   content: url(../images/select-arrow.svg);
   position: absolute;
-  top: -.65rem;
+  top: -0.65rem;
   right: 0;
-  padding: 0 .55rem;
+  padding: 0 0.55rem;
   cursor: pointer;
   pointer-events: none;
-  transition: .25s all ease;
+  transition: 0.25s all ease;
 }
 
 .hr-section-13 .services .select-services .sort-by label,
@@ -2402,30 +2403,30 @@ header nav .navbar li .bg-purple-400:hover {
 }
 
 .hr-section-14 .list-card li {
-  margin: .5rem .75rem;
-  padding: .5rem .9rem;
-  border: 1px solid #8C61FF;
+  margin: 0.5rem 0.75rem;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid #8c61ff;
   border-radius: 5px;
-  opacity: .5;
+  opacity: 0.5;
   cursor: pointer;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .hr-section-14 .list-card li:hover {
   opacity: 1;
-  box-shadow: 0px 0px 7px #8C61FF;
+  box-shadow: 0px 0px 7px #8c61ff;
 }
 
 .hr-section-14 .list-card li.active {
   opacity: 1;
-  box-shadow: 0px 0px 7px #8C61FF;
+  box-shadow: 0px 0px 7px #8c61ff;
 }
 
 /*end hr-section-14*/
 /* end page  Explore*/
 /* start page  Explore-mentor-profile*/
 .hr-section-15 {
-  background-color: #F3F4F7;
+  background-color: #f3f4f7;
   margin: 2.5rem 0;
   padding: 1rem 0;
 }
@@ -2485,7 +2486,7 @@ header nav .navbar li .bg-purple-400:hover {
 
 .hr-section-15 .description-profile {
   background-color: #fff;
-  padding: 1rem .75rem;
+  padding: 1rem 0.75rem;
   border-radius: 10px;
   height: 100%;
 }
@@ -2499,7 +2500,7 @@ header nav .navbar li .bg-purple-400:hover {
 
 .hr-section-15 .description-profile p {
   font-size: 14px;
-  color: #77758E;
+  color: #77758e;
 }
 
 .hr-section-15 .occupations-profile {
@@ -2518,7 +2519,7 @@ header nav .navbar li .bg-purple-400:hover {
 
 .hr-section-15 .occupations-profile p {
   font-size: 14px;
-  color: #77758E;
+  color: #77758e;
 }
 
 .hr-section-15 .p-profile {
@@ -2648,23 +2649,23 @@ header nav .navbar li .bg-purple-400:hover {
 }
 
 .hr-section-16 .list-card li {
-  margin: .5rem .75rem;
-  padding: .5rem .9rem;
-  border: 1px solid #8C61FF;
+  margin: 0.5rem 0.75rem;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid #8c61ff;
   border-radius: 5px;
-  opacity: .5;
+  opacity: 0.5;
   cursor: pointer;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .hr-section-16 .list-card li:hover {
   opacity: 1;
-  box-shadow: 0px 0px 7px #8C61FF;
+  box-shadow: 0px 0px 7px #8c61ff;
 }
 
 .hr-section-16 .list-card li.active {
   opacity: 1;
-  box-shadow: 0px 0px 7px #8C61FF;
+  box-shadow: 0px 0px 7px #8c61ff;
 }
 
 /*end hr-section-16*/
@@ -2675,8 +2676,8 @@ header nav .navbar li .bg-purple-400:hover {
 
 .hr-section-17 .Certificates {
   padding: 1rem;
-  border-top: 2px solid #8C61FF;
-  border-bottom: 2px solid #8C61FF;
+  border-top: 2px solid #8c61ff;
+  border-bottom: 2px solid #8c61ff;
   line-height: 2;
 }
 
@@ -2689,7 +2690,7 @@ header nav .navbar li .bg-purple-400:hover {
 }
 
 .hr-section-17 .Certificates p span {
-  color: #77758E;
+  color: #77758e;
 }
 
 /*end hr-section-17*/
@@ -2700,7 +2701,7 @@ header nav .navbar li .bg-purple-400:hover {
 
 .hr-section-18 .reviews {
   padding: 1rem;
-  border-top: 2px solid #8C61FF;
+  border-top: 2px solid #8c61ff;
 }
 
 .hr-section-18 h4 {
@@ -2711,8 +2712,8 @@ header nav .navbar li .bg-purple-400:hover {
 }
 
 .hr-section-18 .review {
-  border: 2px solid #8C61FF;
-  padding: .25rem 1rem 1.5rem;
+  border: 2px solid #8c61ff;
+  padding: 0.25rem 1rem 1.5rem;
   border-radius: 15px;
   margin-bottom: 1.5rem;
 }
@@ -2722,7 +2723,7 @@ header nav .navbar li .bg-purple-400:hover {
   align-items: center;
   column-gap: 10px;
   padding-top: 5px;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .hr-section-18 .review .review-name span {
@@ -2736,17 +2737,17 @@ header nav .navbar li .bg-purple-400:hover {
 
 .hr-section-18 .review p {
   font-size: 14px;
-  color: #77758E;
+  color: #77758e;
 }
 
 .hr-section-18 .view-more {
-  margin-top: -.75rem;
+  margin-top: -0.75rem;
   padding: 0 1rem;
-  margin-bottom: .25rem;
+  margin-bottom: 0.25rem;
 }
 
 .hr-section-18 .view-more a {
-  color: #8C61FF;
+  color: #8c61ff;
   text-decoration: underline;
 }
 
@@ -2822,7 +2823,7 @@ header nav .navbar li .bg-purple-400:hover {
 }
 
 .hr-section-19 .visit-profile .btn-visit-profile {
-  padding: .25rem 1rem;
+  padding: 0.25rem 1rem;
   border: 1px solid #343090;
   color: #343090;
   background: none;
@@ -2832,7 +2833,7 @@ header nav .navbar li .bg-purple-400:hover {
 
 .hr-section-19 .lead-profile {
   font-size: 20px;
-  color: #77758E;
+  color: #77758e;
 }
 
 .hr-section-19 .purchase-container {
@@ -2864,7 +2865,7 @@ header nav .navbar li .bg-purple-400:hover {
 }
 
 .hr-section-19 .service-details > div > div > p span {
-  color: #5F59F7;
+  color: #5f59f7;
   font-weight: 600;
 }
 
@@ -2913,7 +2914,7 @@ header nav .navbar li .bg-purple-400:hover {
 }
 
 .hr-section-19 .slider-service .slider-service-content .slider-service-img .active {
-  border: 1px solid #6592FD;
+  border: 1px solid #6592fd;
   padding: 0 3px;
   border-radius: 5px;
 }
@@ -2939,7 +2940,7 @@ header nav .navbar li .bg-purple-400:hover {
 /* start page  mentor-home*/
 header nav .nav-mentor li {
   margin: 15px 10px;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 header nav .nav-mentor li:first-child:hover {
@@ -3008,10 +3009,10 @@ header nav .nav-mentor li.active:hover a {
 }
 
 .hr-section-20 .my-services-title .available-work .switch:before {
-  content: '';
+  content: "";
   width: 15px;
   height: 15px;
-  background-color: #FFF;
+  background-color: #fff;
   position: absolute;
   top: 3px;
   right: 2px;
@@ -3024,7 +3025,7 @@ header nav .nav-mentor li.active:hover a {
 }
 
 .hr-section-20 .available {
-  background-color: #F3F4F7;
+  background-color: #f3f4f7;
   padding: 1.5rem 0;
 }
 
@@ -3033,7 +3034,7 @@ header nav .nav-mentor li.active:hover a {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.25rem;
-  border: 2px solid #5F59F7;
+  border: 2px solid #5f59f7;
   background-color: #fff;
   border-radius: 12px;
   gap: 20px;
@@ -3054,11 +3055,11 @@ header nav .nav-mentor li.active:hover a {
 .hr-section-20 .available .available-course .part-student h4 span {
   font-style: normal;
   font-size: 12px;
-  color: #77758E;
+  color: #77758e;
 }
 
 .hr-section-20 .available .available-course .part-student p {
-  color: #77758E;
+  color: #77758e;
   font-size: 16px;
 }
 
@@ -3074,7 +3075,7 @@ header nav .nav-mentor li.active:hover a {
 }
 
 .hr-section-20 .available .available-course .part-appointments p {
-  color: #77758E;
+  color: #77758e;
   font-size: 16px;
 }
 
@@ -3121,11 +3122,11 @@ header nav .nav-mentor li.active:hover a {
 }
 
 .hr-section-21 .mentor-dashboard .nav-mentor-dashboard {
-  background-color: #F3F4F7;
+  background-color: #f3f4f7;
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  gap: .85rem;
+  gap: 0.85rem;
   text-align: center;
   min-width: 11.5rem;
   border-radius: 10px;
@@ -3135,7 +3136,7 @@ header nav .nav-mentor li.active:hover a {
 .hr-section-21 .mentor-dashboard .nav-mentor-dashboard li {
   position: relative;
   background-color: #fff;
-  padding: .65rem .75rem;
+  padding: 0.65rem 0.75rem;
   border-radius: 10px;
   box-shadow: 0px 1px 4px #41414152;
   cursor: pointer;
@@ -3147,7 +3148,7 @@ header nav .nav-mentor li.active:hover a {
   right: -4px;
   top: -4px;
   bottom: -4px;
-  border: 2px solid #8C61FF;
+  border: 2px solid #8c61ff;
   border-radius: 10px;
   display: none;
 }
@@ -3171,13 +3172,14 @@ header nav .nav-mentor li.active:hover a {
   width: auto;
 }
 
-.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form input, .hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form select {
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form input,
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form select {
   background-color: #fff;
-  border: 1px solid #6592FD;
+  border: 1px solid #6592fd;
 }
 
 .hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form select {
-  padding: .35rem .6rem .35rem .1rem;
+  padding: 0.35rem 0.6rem 0.35rem 0.1rem;
   margin-right: 0.25rem;
 }
 
@@ -3187,20 +3189,22 @@ header nav .nav-mentor li.active:hover a {
   border: none;
   border-radius: 7px;
   padding: 0.5rem 1rem;
-  color: #77758E;
+  color: #77758e;
   resize: none;
 }
 
 .hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form sup {
-  color: #77758E;
-  margin: .25rem;
+  color: #77758e;
+  margin: 0.25rem;
 }
 
 .hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .Birthdate-mentor {
   background-image: url(../images/Birthdate-icon.svg);
 }
 
-.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .Languages-mentor, .hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .Occupation-mentor, .hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .Certificates-mentor {
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .Languages-mentor,
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .Occupation-mentor,
+.hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .Certificates-mentor {
   background-image: none;
 }
 
@@ -3210,7 +3214,7 @@ header nav .nav-mentor li.active:hover a {
 
 .hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .file-input__label {
   background-color: #343090;
-  padding: .25rem 1.25rem;
+  padding: 0.25rem 1.25rem;
   border-radius: 25px;
 }
 
@@ -3228,7 +3232,7 @@ header nav .nav-mentor li.active:hover a {
 }
 
 .hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .upload-picture .img-back .img-up {
-  border: 1px solid #6592FD;
+  border: 1px solid #6592fd;
   border-radius: 50%;
 }
 
@@ -3248,7 +3252,7 @@ header nav .nav-mentor li.active:hover a {
 }
 
 .hr-section-21 .mentor-dashboard .dashboard-basic-info .basic-info-form .upload-picture .img-content a {
-  color: #8C61FF;
+  color: #8c61ff;
 }
 
 .hr-section-21 .mentor-dashboard .dashboard-course {
@@ -3288,7 +3292,7 @@ header nav .nav-mentor li.active:hover a {
 .hr-section-21 .mentor-dashboard .dashboard-course .mentor-course-card .mentor-course-info p {
   font-size: 14px;
   font-weight: 300;
-  color: #77758E;
+  color: #77758e;
 }
 
 .hr-section-21 .mentor-dashboard .dashboard-course-service {
@@ -3298,7 +3302,8 @@ header nav .nav-mentor li.active:hover a {
   border-radius: 10px;
 }
 
-.hr-section-21 .mentor-dashboard .dashboard-course-service form, .hr-section-21 .mentor-dashboard .dashboard-course-service form div {
+.hr-section-21 .mentor-dashboard .dashboard-course-service form,
+.hr-section-21 .mentor-dashboard .dashboard-course-service form div {
   padding-bottom: 0;
 }
 
@@ -3312,7 +3317,7 @@ header nav .nav-mentor li.active:hover a {
 
 .hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details input {
   background-color: #fff;
-  border: 1px solid #6592FD;
+  border: 1px solid #6592fd;
 }
 
 .hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .select-topic-price {
@@ -3332,9 +3337,9 @@ header nav .nav-mentor li.active:hover a {
   appearance: none;
   outline: 0;
   box-shadow: none;
-  border: 1px solid #6592FD;
+  border: 1px solid #6592fd;
   background: #fff;
-  padding: .35rem .5em;
+  padding: 0.35rem 0.5em;
   color: #414141;
   cursor: pointer;
   height: auto;
@@ -3347,10 +3352,10 @@ header nav .nav-mentor li.active:hover a {
   content: url(../images/select-arrow-200.svg);
   position: absolute;
   top: 1.85rem;
-  right: .5rem;
+  right: 0.5rem;
   cursor: pointer;
   pointer-events: none;
-  transition: .25s all ease;
+  transition: 0.25s all ease;
 }
 
 .hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .select-topic-price .price {
@@ -3359,7 +3364,7 @@ header nav .nav-mentor li.active:hover a {
 
 .hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .select-topic-price .price input {
   width: 83%;
-  padding: .3rem 1rem;
+  padding: 0.3rem 1rem;
 }
 
 .hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .select-topic-price .price span {
@@ -3381,15 +3386,15 @@ header nav .nav-mentor li.active:hover a {
 }
 
 .hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .main-picture .input-field .btn-purple-400 {
-  padding: .35rem 1.2rem;
+  padding: 0.35rem 1.2rem;
 }
 
 .hr-section-21 .mentor-dashboard .dashboard-course-service textarea {
   width: 100%;
   background-color: #fff;
-  border: 1px solid #6592FD;
+  border: 1px solid #6592fd;
   border-radius: 7px;
-  padding: .2rem 1rem;
+  padding: 0.2rem 1rem;
   resize: none;
 }
 
@@ -3402,10 +3407,10 @@ header nav .nav-mentor li.active:hover a {
 .hr-section-21 .mentor-dashboard .dashboard-course-service .service-includes .service-remove .btn-remove {
   margin-left: auto;
   margin-right: auto;
-  background-color: #D8D8D8;
-  padding: .2rem 2rem;
+  background-color: #d8d8d8;
+  padding: 0.2rem 2rem;
   border-radius: 25px;
-  color: #7D7D7D;
+  color: #7d7d7d;
 }
 
 .hr-section-21 .mentor-dashboard .dashboard-course-service .service-includes .service-add {
@@ -3415,14 +3420,14 @@ header nav .nav-mentor li.active:hover a {
 }
 
 .hr-section-21 .mentor-dashboard .dashboard-course-service .service-includes .service-add .btn-add {
-  background-color: #6592FD;
-  padding: .2rem 2.25rem;
+  background-color: #6592fd;
+  padding: 0.2rem 2.25rem;
   border-radius: 25px;
   width: 115px;
 }
 
 .hr-section-21 .mentor-dashboard .dashboard-course-service .service-includes .btn {
-  padding: .2rem 2rem;
+  padding: 0.2rem 2rem;
 }
 
 .hr-section-21 .mentor-dashboard .dashboard-course-service .save-edits {
@@ -3463,7 +3468,7 @@ header nav .nav-mentor li.active:hover a {
 
 .hr-section-21 .mentor-dashboard .dashboard-balance .dashboard-balance-box {
   background-color: #fff;
-  border: 1px solid #6592FD;
+  border: 1px solid #6592fd;
   text-align: center;
   padding: 1.25rem;
   border-radius: 10px;
@@ -3478,7 +3483,7 @@ header nav .nav-mentor li.active:hover a {
 }
 
 .hr-section-21 .mentor-dashboard .dashboard-balance .dashboard-balance-box .price {
-  color: #6592FD;
+  color: #6592fd;
   font-weight: 300;
 }
 
@@ -3487,6 +3492,8 @@ header nav .nav-mentor li.active:hover a {
 .hr-section-22 {
   padding: 15px 80px 60px;
   min-height: calc(100vh - 119px);
+  /*start mentor course control live */
+  /*end mentor course control live */
 }
 
 .hr-section-22 h4 {
@@ -3505,7 +3512,7 @@ header nav .nav-mentor li.active:hover a {
 }
 
 .hr-section-22 .name-plate .guardian-name-plate {
-  border: 1px solid #8C61FF;
+  border: 1px solid #8c61ff;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
@@ -3525,9 +3532,9 @@ header nav .nav-mentor li.active:hover a {
 }
 
 .hr-section-22 .name-plate .plate-title {
-  border: 1px solid #8C61FF;
+  border: 1px solid #8c61ff;
   border-radius: 25px;
-  padding: .3rem 3rem;
+  padding: 0.3rem 3rem;
   background-color: white;
   position: absolute;
   top: -1.25rem;
@@ -3544,7 +3551,7 @@ header nav .nav-mentor li.active:hover a {
 }
 
 .hr-section-22 .name-plate .hero-name-plate {
-  border: 1px solid #8C61FF;
+  border: 1px solid #8c61ff;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
@@ -3566,23 +3573,23 @@ header nav .nav-mentor li.active:hover a {
 
 .hr-section-22 .mentor-appointment-control-container .appointment-control-item {
   display: flex;
-  background-color: #F3F4F7;
+  background-color: #f3f4f7;
   align-items: center;
   border-radius: 12px;
-  gap: .5rem;
-  padding: .5rem;
+  gap: 0.5rem;
+  padding: 0.5rem;
   border: 1px solid transparent;
 }
 
 .hr-section-22 .mentor-appointment-control-container .appointment-control-item.live-active {
-  border: 1px solid #6592FD;
-  box-shadow: 0px 0px 4px #6592FD;
+  border: 1px solid #6592fd;
+  box-shadow: 0px 0px 4px #6592fd;
 }
 
 .hr-section-22 .mentor-appointment-control-container .appointment-control-item.live-active .appointment-date,
 .hr-section-22 .mentor-appointment-control-container .appointment-control-item.live-active .appointment-time,
 .hr-section-22 .mentor-appointment-control-container .appointment-control-item.live-active .appointment-title {
-  border: 1px solid #6592FD;
+  border: 1px solid #6592fd;
 }
 
 .hr-section-22 .mentor-appointment-control-container .appointment-sub-item p {
@@ -3595,7 +3602,7 @@ header nav .nav-mentor li.active:hover a {
 .hr-section-22 .mentor-appointment-control-container .appointment-time,
 .hr-section-22 .mentor-appointment-control-container .appointment-title {
   background-color: white;
-  padding: .3rem 1rem;
+  padding: 0.3rem 1rem;
   border: 1px solid transparent;
   border-radius: 7px;
 }
@@ -3606,7 +3613,7 @@ header nav .nav-mentor li.active:hover a {
 
 .hr-section-22 .mentor-appointment-control-container .appointment-button {
   display: flex;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
 .hr-section-22 .mentor-appointment-control-container .appointment-button button {
@@ -3615,11 +3622,11 @@ header nav .nav-mentor li.active:hover a {
 
 .hr-section-22 .mentor-appointment-control-container .mentor-control-btn button,
 .hr-section-22 .mentor-appointment-control-container .live-active .appointment-button .mentor-live-btn button {
-  background-color: #5F59F7;
+  background-color: #5f59f7;
   color: white;
   border: none;
   border-radius: 25px;
-  padding: .4rem 1.5rem;
+  padding: 0.4rem 1.5rem;
   opacity: 1;
 }
 
@@ -3627,8 +3634,8 @@ header nav .nav-mentor li.active:hover a {
   color: white;
   border: none;
   border-radius: 25px;
-  padding: .4rem 1.5rem;
-  background-color: #6592FD;
+  padding: 0.4rem 1.5rem;
+  background-color: #6592fd;
   opacity: 0.4;
 }
 
@@ -3644,7 +3651,7 @@ header nav .nav-mentor li.active:hover a {
 }
 
 .hr-section-22 .new-appointment-container .new-appointment-form {
-  border: 1px solid #6592FD;
+  border: 1px solid #6592fd;
   border-radius: 10px;
   padding: 1rem;
   width: 85%;
@@ -3668,9 +3675,9 @@ header nav .nav-mentor li.active:hover a {
 }
 
 .hr-section-22 .new-appointment-container form div input {
-  padding: .2rem 0 .2rem .35rem;
+  padding: 0.2rem 0 0.2rem 0.35rem;
   border-radius: 10px;
-  border: 1px solid #A8A8A8;
+  border: 1px solid #a8a8a8;
   color: #414141;
 }
 
@@ -3703,17 +3710,118 @@ header nav .nav-mentor li.active:hover a {
 
 .hr-section-22 .new-appointment-container form .new-appointment-title textarea {
   resize: none;
-  border: 1px solid #A8A8A8;
+  border: 1px solid #a8a8a8;
   border-radius: 10px;
 }
 
 .hr-section-22 .new-appointment-container .add-new-appointment-button .add-new-button {
-  background-color: #5F59F7;
+  background-color: #5f59f7;
   border-radius: 25px;
   color: white;
-  padding: .2rem 3rem;
+  padding: 0.2rem 3rem;
   margin: 0 auto;
   width: auto;
+}
+
+.hr-section-22 .mentor-control-live {
+  background-color: #e9eaeb;
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.hr-section-22 .mentor-control-live .load-live img {
+  width: auto;
+}
+
+.hr-section-22 .notes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.hr-section-22 .notes-container .notes-form {
+  width: 100%;
+  border: 1px solid #6592fd;
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+}
+
+.hr-section-22 .notes-container .notes-form form {
+  padding-bottom: 0;
+}
+
+.hr-section-22 .notes-container .notes-form form .notes-title {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+}
+
+.hr-section-22 .notes-container .notes-form form .notes-title label {
+  color: #414141;
+  font-size: 18px;
+}
+
+.hr-section-22 .notes-container .notes-form form .notes-title textarea {
+  resize: none;
+  border: 1px solid #a8a8a8;
+  border-radius: 7px;
+  padding: 0.5rem;
+}
+
+.hr-section-22 .notes-container .notes-form form .notes-title ::placeholder {
+  color: #d9d9d9;
+}
+
+.hr-section-22 .notes-container .notes-form form .button-send-notes {
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.hr-section-22 .notes-container .notes-form form .button-send-notes .notes-button {
+  background-color: #5f59f7;
+  border-radius: 25px;
+  color: white;
+  padding: 0.2rem 2rem;
+  margin: 0 auto;
+  width: auto;
+  font-size: 18px;
+}
+
+.hr-section-22 .notes-container .start-cancel-session {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.hr-section-22 .notes-container .start-cancel-session .btn-start {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: 20px;
+  padding: .25rem 1.5rem;
+}
+
+.hr-section-22 .notes-container .start-cancel-session .btn-start span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.hr-section-22 .notes-container .start-cancel-session .btn-cancel {
+  background-color: #D5D5D5;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.1rem .75rem;
+  border-radius: 25px;
+  font-size: 14px;
+  color: #414141;
 }
 
 /*end page Mentor course control*/
@@ -3770,6 +3878,10 @@ footer .footer-info .icon-foooter li a {
   .hr-section-22 .mentor-appointment-control-container .appointment-title {
     width: 24.75rem;
   }
+  .hr-section-22 .notes-container {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -3797,12 +3909,19 @@ footer .footer-info .icon-foooter li a {
   .hr-section-21 {
     padding: 15px 0;
   }
-  .hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .select-topic-price {
+  .hr-section-21
+.mentor-dashboard
+.dashboard-course-service
+.service-info-details
+.select-topic-price {
     flex-direction: column;
     gap: 2px;
   }
   .hr-section-22 .mentor-appointment-control-container .appointment-title {
     width: 10rem;
+  }
+  .hr-section-22 {
+    padding: 15px 0;
   }
 }
 
@@ -3836,7 +3955,11 @@ footer .footer-info .icon-foooter li a {
   .hr-section-21 {
     padding: 15px 80px;
   }
-  .hr-section-21 .mentor-dashboard .dashboard-course-service .service-info-details .select-topic-price {
+  .hr-section-21
+.mentor-dashboard
+.dashboard-course-service
+.service-info-details
+.select-topic-price {
     flex-direction: row;
     gap: 11px;
   }
@@ -3859,7 +3982,7 @@ footer .footer-info .icon-foooter li a {
     display: block;
   }
   header nav .navbar {
-    background: #F6F6F6;
+    background: #f6f6f6;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -4019,7 +4142,9 @@ footer .footer-info .icon-foooter li a {
     flex-direction: column;
     gap: 2.5rem;
   }
-  .hr-section-22 .mentor-appointment-control-container .appointment-control-item {
+  .hr-section-22
+.mentor-appointment-control-container
+.appointment-control-item {
     flex-direction: column;
     align-items: stretch;
   }
