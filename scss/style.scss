@@ -2474,6 +2474,7 @@ header nav .nav-mentor {
           gap: .2rem;
           label {
             color: $text-color;
+            font-size: 18px;
           }
           textarea {
             resize: none;
@@ -2495,6 +2496,7 @@ header nav .nav-mentor {
             padding: 0.2rem 2rem;
             margin: 0 auto;
             width: auto;
+            font-size: 18px;
           }
         }
       }
@@ -2507,7 +2509,7 @@ header nav .nav-mentor {
         display: flex;
         align-items: center;
         gap: .5rem;
-        font-size: 14px;
+        font-size: 20px;
         padding: .25rem 1.5rem;
         span{
           width: 12px;
@@ -2522,7 +2524,7 @@ header nav .nav-mentor {
         margin-right: auto;
         padding: 0.1rem .75rem;
         border-radius: 25px;
-        font-size: 12px;
+        font-size: 14px;
         color: $text-color;
       }
     }

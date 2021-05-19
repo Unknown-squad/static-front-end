@@ -3764,6 +3764,7 @@ header nav .nav-mentor li.active:hover a {
 
 .hr-section-22 .notes-container .notes-form form .notes-title label {
   color: #414141;
+  font-size: 18px;
 }
 
 .hr-section-22 .notes-container .notes-form form .notes-title textarea {
@@ -3789,6 +3790,7 @@ header nav .nav-mentor li.active:hover a {
   padding: 0.2rem 2rem;
   margin: 0 auto;
   width: auto;
+  font-size: 18px;
 }
 
 .hr-section-22 .notes-container .start-cancel-session {
@@ -3801,7 +3803,7 @@ header nav .nav-mentor li.active:hover a {
   display: flex;
   align-items: center;
   gap: .5rem;
-  font-size: 14px;
+  font-size: 20px;
   padding: .25rem 1.5rem;
 }
 
@@ -3818,7 +3820,7 @@ header nav .nav-mentor li.active:hover a {
   margin-right: auto;
   padding: 0.1rem .75rem;
   border-radius: 25px;
-  font-size: 12px;
+  font-size: 14px;
   color: #414141;
 }
 
