@@ -3804,6 +3804,9 @@ footer .footer-info .icon-foooter li a {
   .hr-section-22 .mentor-appointment-control-container .appointment-title {
     width: 10rem;
   }
+  .hr-section-22 {
+    padding: 15px 0;
+  }
 }
 
 @media screen and (max-width: 992px) {
