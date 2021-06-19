@@ -3825,6 +3825,224 @@ header nav .nav-mentor li.active:hover a {
 }
 
 /*end page Mentor course control*/
+/* start page  guardian-home*/
+header nav .nav-guardian li {
+  margin: 15px 20px;
+  transition: all 0.5s ease;
+}
+
+header nav .nav-guardian li:last-child {
+  margin: 15px;
+}
+
+header nav .nav-guardian li a {
+  color: #343090;
+}
+
+header nav .nav-guardian li.active a {
+  border-bottom: 1px solid #343090;
+}
+
+header nav .nav-guardian li:hover a {
+  border-bottom: 1px solid #343090;
+}
+
+.hr-section-23 {
+  padding: 25px 80px;
+  min-height: calc(100vh - 122px);
+}
+
+.hr-section-23 h3 {
+  color: #414141;
+  margin-left: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.hr-section-23 .guardian-home {
+  display: flex;
+  gap: 2rem;
+}
+
+.hr-section-23 .guardian-home .nav-guardian-home {
+  background-color: #f3f4f7;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.85rem;
+  text-align: center;
+  min-width: 8rem;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.hr-section-23 .guardian-home .nav-guardian-home li {
+  padding: 0.35rem 0.35rem;
+  cursor: pointer;
+  position: relative;
+  border-radius: 50%;
+}
+
+.hr-section-23 .guardian-home .nav-guardian-home li a img {
+  width: auto;
+  border-radius: 50%;
+}
+
+.hr-section-23 .guardian-home .nav-guardian-home li a .add-child {
+  opacity: .7;
+}
+
+.hr-section-23 .guardian-home .nav-guardian-home li a p {
+  color: #77758e;
+  margin-top: -0.5rem;
+  font-size: 14px;
+}
+
+.hr-section-23 .guardian-home .nav-guardian-home li a.active img {
+  border: 2px solid #8c61ff;
+  border-radius: 50%;
+  padding: .15rem;
+}
+
+.hr-section-23 .guardian-home .nav-guardian-home li a.active p {
+  color: #414141;
+}
+
+.hr-section-23 .guardian-home .basic-info-child {
+  position: relative;
+  background-color: #f3f4f7;
+  width: 100%;
+  padding: 2rem 1rem 1.5rem;
+  border-radius: 10px;
+}
+
+.hr-section-23 .guardian-home .basic-info-child h4 {
+  color: #414141;
+  margin-top: 1rem;
+  padding-left: 15px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.hr-section-23 .guardian-home .basic-info-child .someone-child {
+  position: absolute;
+  top: 5%;
+  left: -2%;
+}
+
+.hr-section-23 .guardian-home .basic-info-child .basic-info-form {
+  color: #414141;
+  border-bottom: 1px solid #707070;
+}
+
+.hr-section-23 .guardian-home .basic-info-child .basic-info-form img {
+  width: auto;
+}
+
+.hr-section-23 .guardian-home .basic-info-child .basic-info-form input {
+  background-color: #fff;
+  border: 1px solid #6592fd;
+}
+
+.hr-section-23 .guardian-home .basic-info-child .basic-info-form .Birthdate-mentor {
+  background-image: url(../images/Birthdate-icon.svg);
+}
+
+.hr-section-23 .guardian-home .basic-info-child .basic-info-form .upload-picture {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 0rem;
+}
+
+.hr-section-23 .guardian-home .basic-info-child .basic-info-form .upload-picture .img-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr-section-23 .guardian-home .basic-info-child .basic-info-form .upload-picture .img-back .img-up {
+  border: 1px solid #6592fd;
+  border-radius: 50%;
+}
+
+.hr-section-23 .guardian-home .basic-info-child .basic-info-form .upload-picture .img-back .icon-up {
+  position: absolute;
+}
+
+.hr-section-23 .guardian-home .basic-info-child .basic-info-form .upload-picture .img-back img {
+  width: auto;
+  cursor: pointer;
+}
+
+.hr-section-23 .guardian-home .basic-info-child .basic-info-form .upload-picture .img-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hr-section-23 .guardian-home .basic-info-child .basic-info-form .upload-picture .img-content a {
+  color: #8c61ff;
+}
+
+.hr-section-23 .guardian-home .basic-info-child .child-course-card {
+  background-color: #fff;
+  border: solid 1px #343090;
+  border-radius: 13px;
+  padding: 1rem 1rem;
+  margin-bottom: 0.25rem;
+  margin-top: 0.5rem;
+  /* card */
+  /* card image */
+  /* card image */
+  /* child course info */
+  /* child course info */
+}
+
+.hr-section-23 .guardian-home .basic-info-child .child-course-card .child-course-img > img {
+  width: 100%;
+}
+
+.hr-section-23 .guardian-home .basic-info-child .child-course-card .child-course-info {
+  margin-bottom: 1rem;
+}
+
+.hr-section-23 .guardian-home .basic-info-child .child-course-card .child-course-info h2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #414141;
+}
+
+.hr-section-23 .guardian-home .basic-info-child .child-course-card .child-course-info p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #77758e;
+}
+
+.hr-section-23 .guardian-home .basic-info-child .child-course-card .mentor-appointment .mentor {
+  color: #414141;
+  font-size: 14px;
+}
+
+.hr-section-23 .guardian-home .basic-info-child .child-course-card .mentor-appointment .next-appointment {
+  color: #414141;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.hr-section-23 .create-new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr-section-23 .create-new i {
+  font-size: 10px;
+  font-weight: 600;
+  margin-left: 2px;
+}
+
+/* start page  guardian-home*/
 /*start footer*/
 footer {
   background-color: #343090;
@@ -3882,6 +4100,9 @@ footer .footer-info .icon-foooter li a {
     width: 90%;
     margin: 0 auto;
   }
+  .hr-section-23 .guardian-home .basic-info-child .child-course-card .child-course-info h2 {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -3922,6 +4143,9 @@ footer .footer-info .icon-foooter li a {
   }
   .hr-section-22 {
     padding: 15px 0;
+  }
+  .hr-section-23 .guardian-home .basic-info-child .someone-child {
+    left: -3.5%;
   }
 }
 
@@ -4043,6 +4267,9 @@ footer .footer-info .icon-foooter li a {
   .hr-section-21 .mentor-dashboard .basic-info-form .upload-picture {
     margin-top: 0.25rem;
   }
+  .hr-section-23 .guardian-home .basic-info-child .someone-child {
+    left: -6%;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -4150,6 +4377,26 @@ footer .footer-info .icon-foooter li a {
   }
   .hr-section-22 .mentor-appointment-control-container .appointment-title {
     width: auto;
+  }
+  .hr-section-23 .guardian-home {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hr-section-23 {
+    padding: 25px 0;
+  }
+  .hr-section-23 h3 {
+    text-align: center;
+    margin-left: 0;
+  }
+  .hr-section-23 .guardian-home .nav-guardian-home {
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  .hr-section-23 .guardian-home .basic-info-child .someone-child {
+    top: -2.5%;
+    left: 0;
   }
   footer .footer-info {
     display: block;
