@@ -3888,6 +3888,10 @@ header nav .nav-guardian li:hover a {
   border-radius: 50%;
 }
 
+.hr-section-23 .guardian-home .nav-guardian-home li a .add-child {
+  opacity: .7;
+}
+
 .hr-section-23 .guardian-home .nav-guardian-home li a p {
   color: #77758e;
   margin-top: -0.5rem;
