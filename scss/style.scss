@@ -2711,6 +2711,14 @@ header nav .nav-guardian {
           }
         }
       }
+      .add-new-form{
+        border-bottom: 0;
+      }
+      .add-someone{
+        position: absolute;
+        top: 78%;
+        left: -2%;
+      }
     }
   }
   .create-new {
@@ -2947,6 +2955,10 @@ footer {
   .hr-section-23 .guardian-home .basic-info-child .someone-child{
     left: -6%;
   }
+  .hr-section-23 .guardian-home .basic-info-child .add-someone{
+    top: 74%;
+    left: -4%; 
+  }
 }
 @media screen and (max-width: 576px) {
   .hr-section-1 {
@@ -3070,8 +3082,9 @@ footer {
     flex-flow: wrap;
     justify-content: center;
   }
-  .hr-section-23 .guardian-home .basic-info-child .someone-child{
-    top: -2.5%;
+  .hr-section-23 .guardian-home .basic-info-child .someone-child,
+  .hr-section-23 .guardian-home .basic-info-child .add-someone{
+    top: -4%;
     left: 0;
   }
   footer .footer-info {
