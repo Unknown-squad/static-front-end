@@ -2466,12 +2466,12 @@ header nav .nav-mentor {
       border: 1px solid $purple-200;
       border-radius: 10px;
       padding: 0.75rem 1rem;
-      form{
+      form {
         padding-bottom: 0;
         .notes-title {
           display: flex;
           flex-direction: column;
-          gap: .2rem;
+          gap: 0.2rem;
           label {
             color: $text-color;
             font-size: 18px;
@@ -2482,14 +2482,14 @@ header nav .nav-mentor {
             border-radius: 7px;
             padding: 0.5rem;
           }
-          ::placeholder{
+          ::placeholder {
             color: #d9d9d9;
           }
         }
-        .button-send-notes{
+        .button-send-notes {
           text-align: center;
           padding-bottom: 0;
-          .notes-button{
+          .notes-button {
             background-color: $purple-400;
             border-radius: 25px;
             color: white;
@@ -2501,28 +2501,28 @@ header nav .nav-mentor {
         }
       }
     }
-    .start-cancel-session{
+    .start-cancel-session {
       display: flex;
       flex-direction: column;
-      gap: .5rem;
-      .btn-start{
+      gap: 0.5rem;
+      .btn-start {
         display: flex;
         align-items: center;
-        gap: .5rem;
+        gap: 0.5rem;
         font-size: 20px;
-        padding: .25rem 1.5rem;
-        span{
+        padding: 0.25rem 1.5rem;
+        span {
           width: 12px;
           height: 12px;
           border-radius: 50%;
           background-color: #fff;
         }
       }
-      .btn-cancel{
-        background-color: #D5D5D5;
+      .btn-cancel {
+        background-color: #d5d5d5;
         margin-left: auto;
         margin-right: auto;
-        padding: 0.1rem .75rem;
+        padding: 0.1rem 0.75rem;
         border-radius: 25px;
         font-size: 14px;
         color: $text-color;
@@ -2547,19 +2547,18 @@ header nav .nav-guardian {
       a {
         border-bottom: 1px solid $purple-500;
       }
-    
+    }
+    &:hover {
+      a {
+        border-bottom: 1px solid $purple-500;
       }
-      &:hover {
-        a {
-          border-bottom: 1px solid $purple-500;
-        }
     }
   }
 }
 .hr-section-23 {
   padding: 25px 80px;
   min-height: calc(100vh - 122px);
-  h3{
+  h3 {
     color: $text-color;
     margin-left: 1.5rem;
     margin-bottom: 0.25rem;
@@ -2583,26 +2582,26 @@ header nav .nav-guardian {
         cursor: pointer;
         position: relative;
         border-radius: 50%;
-        a{
-          img{
+        a {
+          img {
             width: auto;
             border-radius: 50%;
           }
-          .add-child{
-            opacity: .7;
+          .add-child {
+            opacity: 0.7;
           }
-          p{
+          p {
             color: $purple-gray;
             margin-top: -0.5rem;
             font-size: 14px;
           }
-          &.active{
-            img{
+          &.active {
+            img {
               border: 2px solid $purple-300;
               border-radius: 50%;
-              padding: .15rem;
+              padding: 0.15rem;
             }
-            p{
+            p {
               color: $text-color;
             }
           }
@@ -2615,14 +2614,14 @@ header nav .nav-guardian {
       width: 100%;
       padding: 2rem 1rem 1.5rem;
       border-radius: 10px;
-      h4{
+      h4 {
         color: $text-color;
         margin-top: 1rem;
         padding-left: 15px;
         font-weight: 300;
         font-size: 20px;
       }
-      .someone-child{
+      .someone-child {
         position: absolute;
         top: 5%;
         left: -2%;
@@ -2633,7 +2632,7 @@ header nav .nav-guardian {
         img {
           width: auto;
         }
-        input{
+        input {
           background-color: #fff;
           border: 1px solid $purple-200;
         }
@@ -2699,22 +2698,22 @@ header nav .nav-guardian {
           }
         }
         /* child course info */
-        .mentor-appointment{
-          .mentor{
+        .mentor-appointment {
+          .mentor {
             color: $text-color;
             font-size: 14px;
           }
-          .next-appointment{
+          .next-appointment {
             color: $text-color;
             font-size: 14px;
             font-weight: 600;
           }
         }
       }
-      .add-new-form{
+      .add-new-form {
         border-bottom: 0;
       }
-      .add-someone{
+      .add-someone {
         position: absolute;
         top: 78%;
         left: -2%;
@@ -2733,7 +2732,273 @@ header nav .nav-guardian {
   }
 }
 /* start page  guardian-home*/
+/*start page Mentor course control*/
+.hr-section-24 {
+  padding: 15px 80px 60px;
+  min-height: calc(100vh - 119px);
+  h4 {
+    text-align: center;
+    color: $text-color;
+    font-size: 22px;
+    font-weight: 300;
+  }
+  .name-plate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2.5rem 0 1.5rem;
+    .mentor-name-plate {
+      border: 1px solid $purple-300;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 20rem;
+      padding: 1.25rem 0;
+      color: $purple-500;
+      position: relative;
+      .mentor-plate-phone-number * {
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 12px;
+        color: $text-color;
+      }
+    }
+    .plate-title {
+      border: 1px solid $purple-300;
+      border-radius: 25px;
+      padding: 0.3rem 3rem;
+      background-color: white;
+      position: absolute;
+      top: -1.25rem;
+      p {
+        font-size: 16px;
+        font-weight: 300;
+      }
+    }
+    .inner-name-plate p {
+      font-size: 18px;
+      font-weight: 400;
+    }
+    .hero-name-plate {
+      border: 1px solid $purple-300;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 20rem;
+      padding: 1.75rem 0;
+      color: $purple-500;
+      position: relative;
+    }
+  }
 
+  .guardian-appointment-control-container {
+    row-gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    h4 {
+      color: $purple-500;
+    }
+    .appointment-control-item {
+      display: flex;
+      background-color: #f3f4f7;
+      align-items: center;
+      border-radius: 12px;
+      gap: 0.75rem;
+      padding: 0.5rem;
+      width: 41rem;
+      border: 1px solid transparent;
+      &.live-active {
+        border: 1px solid $purple-200;
+        box-shadow: 0px 0px 4px $purple-200;
+        .appointment-date,
+        .appointment-time,
+        .appointment-title {
+          border: 1px solid $purple-200;
+        }
+      }
+    }
+    .appointment-sub-item p {
+      color: $text-color;
+      font-size: 14px;
+      font-weight: 300;
+      display: flex;
+      gap: 1rem;
+    }
+
+    .appointment-date,
+    .appointment-time,
+    .appointment-title {
+      background-color: white;
+      padding: 0.3rem .75rem;
+      border: 1px solid transparent;
+      border-radius: 7px;
+    }
+
+    .appointment-title {
+      width: 17.45rem;
+    }
+
+    .appointment-button {
+      display: flex;
+      gap: 0.5rem;
+      margin-left: 0.5rem;
+      button {
+        cursor: pointer;
+      }
+      visibility: hidden;
+      &.active {
+        visibility: inherit;
+      }
+    }
+    .live-active .appointment-button .guardian-live-btn button {
+      background-color: $purple-200;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      padding: 0.4rem 1.5rem;
+      opacity: 1;
+      span {
+        background-color: #fff;
+        border-radius: 50%;
+        width: 7px;
+        height: 7px;
+        display: inline-flex;
+        margin-left: 3px;
+      }
+    }
+    .guardian-live-btn button {
+      color: white;
+      border: none;
+      border-radius: 25px;
+      padding: 0.4rem 1.5rem;
+      background-color: $purple-200;
+      opacity: 0.4;
+    }
+    .report{
+      text-align: center;
+      .report-problem {
+        color: #fff;
+        background-color: $purple-200;
+        width: 180px;
+        padding: .25rem 1.5rem;
+        margin-top: 0.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 25px;
+      }
+    }
+    
+    .rating-box {
+      width: 100%;
+      margin-top: 1.75rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .rating-write-reviwe {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        .form-rating-reviwe {
+          display: flex;
+          justify-content: center;
+          gap: 2rem;
+          padding: 0.5rem 3rem 0.5rem 0.75rem;
+          border-radius: 12px;
+          background-color: #f3f4f7;
+          color: $purple-500;
+          font-size: 20px;
+          .write-reviwe {
+            label {
+              font-size: 16px;
+            }
+            textarea {
+              border: 1px solid $cyan;
+              border-radius: 12px;
+              resize: none;
+              padding-left: 10px;
+              padding-top: 10px;
+              width: 500px;
+              height: 150px;
+            }
+          }
+          .rating {
+            margin-top: 0.15rem;
+            [type="radio"]:checked,
+            [type="radio"]:not(:checked) {
+              display: none;
+            }
+            [type="radio"]:checked + label,
+            [type="radio"]:not(:checked) + label {
+              position: relative;
+              padding-left: 22px;
+              cursor: pointer;
+              line-height: 17px;
+              display: flex;
+              align-items: center;
+              gap: 5px;
+              font-size: 18px;
+              color: $text-color;
+              &.rat-1 {
+                gap: 7px;
+                padding-left: 25px;
+              }
+            }
+            [type="radio"]:checked + label:before,
+            [type="radio"]:not(:checked) + label:before {
+              content: "";
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 16px;
+              height: 16px;
+              border: 1px solid $purple-400;
+              border-radius: 100%;
+              background: #fff;
+            }
+            [type="radio"]:checked + label:after,
+            [type="radio"]:not(:checked) + label:after {
+              content: "";
+              width: 12px;
+              height: 12px;
+              background: $purple-400;
+              position: absolute;
+              top: 3px;
+              left: 3px;
+              border-radius: 100%;
+              -webkit-transition: all 0.2s ease;
+              transition: all 0.2s ease;
+            }
+            [type="radio"]:not(:checked) + label:after {
+              opacity: 0;
+              -webkit-transform: scale(0);
+              transform: scale(0);
+            }
+            [type="radio"]:checked + label:after {
+              opacity: 1;
+              -webkit-transform: scale(1);
+              transform: scale(1);
+            }
+            img {
+              width: auto;
+            }
+          }
+        }
+        .btn-purple-400{
+          width: 180px;
+          padding: .25rem 1.5rem;
+        }
+      }
+    }
+  }
+}
+/*end page Mentor course control*/
 /*start footer*/
 footer {
   background-color: $purple-500;
@@ -2783,11 +3048,16 @@ footer {
   .hr-section-22 .mentor-appointment-control-container .appointment-title {
     width: 24.75rem;
   }
-  .hr-section-22 .notes-container{
+  .hr-section-22 .notes-container {
     width: 90%;
     margin: 0 auto;
   }
-  .hr-section-23 .guardian-home .basic-info-child .child-course-card .child-course-info h2{
+  .hr-section-23
+    .guardian-home
+    .basic-info-child
+    .child-course-card
+    .child-course-info
+    h2 {
     font-size: 18px;
   }
 }
@@ -2830,7 +3100,7 @@ footer {
   .hr-section-22 {
     padding: 15px 0;
   }
-  .hr-section-23 .guardian-home .basic-info-child .someone-child{
+  .hr-section-23 .guardian-home .basic-info-child .someone-child {
     left: -3.5%;
   }
 }
@@ -2872,10 +3142,12 @@ footer {
     flex-direction: row;
     gap: 11px;
   }
-  .hr-section-22 {
+  .hr-section-22,
+  .hr-section-24 {
     padding: 15px 0;
   }
-  .hr-section-22 .mentor-appointment-control-container .appointment-title {
+  .hr-section-22 .mentor-appointment-control-container .appointment-title,
+  .hr-section-24 .guardian-appointment-control-container .appointment-title {
     width: 16.25rem;
   }
 }
@@ -2952,12 +3224,12 @@ footer {
   .hr-section-21 .mentor-dashboard .basic-info-form .upload-picture {
     margin-top: 0.25rem;
   }
-  .hr-section-23 .guardian-home .basic-info-child .someone-child{
+  .hr-section-23 .guardian-home .basic-info-child .someone-child {
     left: -6%;
   }
-  .hr-section-23 .guardian-home .basic-info-child .add-someone{
+  .hr-section-23 .guardian-home .basic-info-child .add-someone {
     top: 74%;
-    left: -4%; 
+    left: -4%;
   }
 }
 @media screen and (max-width: 576px) {
@@ -3050,42 +3322,60 @@ footer {
   .hr-section-21 {
     padding: 15px 0px;
   }
-  .hr-section-21 .mentor-dashboard{
+  .hr-section-21 .mentor-dashboard {
     flex-direction: column;
   }
-  .hr-section-22 .name-plate {
+  .hr-section-22 .name-plate,
+  .hr-section-24 .name-plate {
     flex-direction: column;
     gap: 2.5rem;
   }
   .hr-section-22
     .mentor-appointment-control-container
+    .appointment-control-item,
+  .hr-section-24
+    .guardian-appointment-control-container
     .appointment-control-item {
     flex-direction: column;
     align-items: stretch;
   }
-  .hr-section-22 .mentor-appointment-control-container .appointment-title {
+  .hr-section-22 .mentor-appointment-control-container .appointment-title,
+  .hr-section-24 .guardian-appointment-control-container .appointment-title,
+  .hr-section-24 .guardian-appointment-control-container .appointment-control-item {
     width: auto;
   }
-  .hr-section-23 .guardian-home{
+  .hr-section-23 .guardian-home {
     flex-direction: column;
     align-items: center;
   }
-  .hr-section-23{
+  .hr-section-23 {
     padding: 25px 0;
   }
-  .hr-section-23 h3{
+  .hr-section-23 h3 {
     text-align: center;
     margin-left: 0;
   }
-  .hr-section-23 .guardian-home .nav-guardian-home{
+  .hr-section-23 .guardian-home .nav-guardian-home {
     flex-direction: row;
     flex-flow: wrap;
     justify-content: center;
   }
   .hr-section-23 .guardian-home .basic-info-child .someone-child,
-  .hr-section-23 .guardian-home .basic-info-child .add-someone{
+  .hr-section-23 .guardian-home .basic-info-child .add-someone {
     top: -4%;
     left: 0;
+  }
+  .hr-section-24 .guardian-appointment-control-container {
+    align-items: stretch;
+  }
+  .hr-section-24 .guardian-appointment-control-container .rating-box .rating-write-reviwe .form-rating-reviwe{
+    flex-direction: column;
+    gap: 0;
+    padding: 0.5rem 1rem 0.5rem 0.75rem;
+  }
+  .hr-section-24 .guardian-appointment-control-container .rating-box .rating-write-reviwe .form-rating-reviwe .write-reviwe textarea{
+    width: 100%;
+    height: 100%;
   }
   footer .footer-info {
     display: block;
