@@ -3840,6 +3840,7 @@ header nav .nav-guardian li a {
 }
 
 header nav .nav-guardian li.active a {
+  font-weight: 500;
   border-bottom: 1px solid #343090;
 }
 
@@ -4053,7 +4054,7 @@ header nav .nav-guardian li:hover a {
 }
 
 /* start page  guardian-home*/
-/*start page Mentor course control*/
+/*start page guardian-course*/
 .hr-section-24 {
   padding: 15px 80px 60px;
   min-height: calc(100vh - 119px);
@@ -4170,7 +4171,7 @@ header nav .nav-guardian li:hover a {
 .hr-section-24 .guardian-appointment-control-container .appointment-time,
 .hr-section-24 .guardian-appointment-control-container .appointment-title {
   background-color: white;
-  padding: 0.3rem .75rem;
+  padding: 0.3rem 0.75rem;
   border: 1px solid transparent;
   border-radius: 7px;
 }
@@ -4229,7 +4230,7 @@ header nav .nav-guardian li:hover a {
   color: #fff;
   background-color: #6592fd;
   width: 180px;
-  padding: .25rem 1.5rem;
+  padding: 0.25rem 1.5rem;
   margin-top: 0.5rem;
   margin-left: auto;
   margin-right: auto;
@@ -4347,10 +4348,79 @@ header nav .nav-guardian li:hover a {
 
 .hr-section-24 .guardian-appointment-control-container .rating-box .rating-write-reviwe .btn-purple-400 {
   width: 180px;
-  padding: .25rem 1.5rem;
+  padding: 0.25rem 1.5rem;
 }
 
-/*end page Mentor course control*/
+/*end page guardian-course-*/
+/*start page guardian-settings*/
+.hr-section-25 {
+  padding: 5rem 5rem;
+  min-height: calc(100vh - 122px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr-section-25 h3 {
+  color: #414141;
+  margin-left: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.hr-section-25 .guardian-settings {
+  display: flex;
+  width: 56rem;
+}
+
+.hr-section-25 .guardian-settings .basic-guardian-settings {
+  position: relative;
+  background-color: #f3f4f7;
+  width: 100%;
+  padding: 2rem 1rem 1.5rem;
+  border-radius: 10px;
+}
+
+.hr-section-25 .guardian-settings .basic-guardian-settings h4 {
+  color: #414141;
+  margin-top: 1rem;
+  padding-left: 15px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.hr-section-25 .guardian-settings .basic-guardian-settings .basic-info-form {
+  color: #414141;
+}
+
+.hr-section-25 .guardian-settings .basic-guardian-settings .basic-info-form img {
+  width: auto;
+}
+
+.hr-section-25 .guardian-settings .basic-guardian-settings .basic-info-form input {
+  background-color: #fff;
+  border: 1px solid #6592fd;
+}
+
+.hr-section-25 .guardian-settings .basic-guardian-settings .basic-info-form select {
+  padding: 0.35rem 0.6rem 0.35rem 0.1rem;
+  margin-right: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #6592fd;
+}
+
+.hr-section-25 .guardian-settings .create-new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr-section-25 .guardian-settings .create-new i {
+  font-size: 10px;
+  font-weight: 600;
+  margin-left: 2px;
+}
+
+/*end page guardian-settings*/
 /*start footer*/
 footer {
   background-color: #343090;
@@ -4415,6 +4485,9 @@ footer .footer-info .icon-foooter li a {
 .child-course-info
 h2 {
     font-size: 18px;
+  }
+  .hr-section-25 .guardian-settings {
+    width: 68rem;
   }
 }
 
@@ -4507,6 +4580,12 @@ h2 {
   .hr-section-22 .mentor-appointment-control-container .appointment-title,
   .hr-section-24 .guardian-appointment-control-container .appointment-title {
     width: 16.25rem;
+  }
+  .hr-section-25 {
+    padding: 1rem;
+  }
+  .hr-section-25 .guardian-settings {
+    width: auto;
   }
 }
 
@@ -4700,7 +4779,9 @@ h2 {
   }
   .hr-section-22 .mentor-appointment-control-container .appointment-title,
   .hr-section-24 .guardian-appointment-control-container .appointment-title,
-  .hr-section-24 .guardian-appointment-control-container .appointment-control-item {
+  .hr-section-24
+.guardian-appointment-control-container
+.appointment-control-item {
     width: auto;
   }
   .hr-section-23 .guardian-home {
@@ -4727,14 +4808,28 @@ h2 {
   .hr-section-24 .guardian-appointment-control-container {
     align-items: stretch;
   }
-  .hr-section-24 .guardian-appointment-control-container .rating-box .rating-write-reviwe .form-rating-reviwe {
+  .hr-section-24
+.guardian-appointment-control-container
+.rating-box
+.rating-write-reviwe
+.form-rating-reviwe {
     flex-direction: column;
     gap: 0;
     padding: 0.5rem 1rem 0.5rem 0.75rem;
   }
-  .hr-section-24 .guardian-appointment-control-container .rating-box .rating-write-reviwe .form-rating-reviwe .write-reviwe textarea {
+  .hr-section-24
+.guardian-appointment-control-container
+.rating-box
+.rating-write-reviwe
+.form-rating-reviwe
+.write-reviwe
+textarea {
     width: 100%;
     height: 100%;
+  }
+  .hr-section-25 {
+    min-height: calc(100vh - 153px);
+    padding: 0;
   }
   footer .footer-info {
     display: block;

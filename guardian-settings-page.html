@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image-icon" href="images/title-icon.svg" />
+  <title>To Be Hero</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/5638fbe671.js"></script>
+</head>
+
+<body>
+  <!-- start header -->
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <a href="">
+            <h1>TO BE</h1><span>HERO</span>
+          </a>
+        </div>
+        <div class="navbar-ham">
+          <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="navbar nav-guardian" id="navbar">
+            <li><a href="">home</a></li>
+            <li><a href="">Explore</a></li>
+            <li class="active"><a href="">Settings</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- end header -->
+  <!-- start section guardian-settings -->
+  <section class="hr-section-25">
+    <div class="container">
+      <div class="guardian-settings">
+        <div class="basic-guardian-settings">
+          <form action="" class="basic-info-form">
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <div class="input-field">
+                  <label for="name">Full name</label><br />
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required
+                      value="mohammed sobhi" />
+                </div>
+                <div class="input-field">
+                  <label for="email">Email</label><br />
+
+                  <input type="email" id="email" name="register-email" placeholder="Enter your email" required
+                    value="m.mohammed.sobhi.98@gmail.com" />
+                </div>
+                <div class="input-field">
+                  <label for="phone">Phone</label><br />
+                  <div class="flex-row w-100">
+                    <select name="phone-code" id="phone-code">
+                      <option value="+20">+20</option>
+                    </select>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone" value="01115790092" />
+                  </div>
+                </div>
+               
+              </div>
+              <div class="col-lg-6 col-12">
+                <div class="input-field">
+                  <label for="password">Password</label><br />
+                  <input type="password" id="password" name="password" placeholder="Enter your password" required
+                    value="zzzzzzzzzzzzzzzzz" />
+                </div>
+                <div class="input-field">
+                  <label for="re-password">re-Password</label><br />
+                  <input type="password" id="re-password" name="password" placeholder="Enter your password" required
+                    value="zzzzzzzzzzzzzzzzz" />
+                </div>
+                
+              </div>
+            </div>
+            <div class="create-new">
+              <button class="btn btn-purple-400">
+                Save changes
+              </button>
+            </div>
+          </form>
+          
+        </div>
+       
+      </div>
+    </div>
+  </section>
+  <!-- end section guardian-settings -->
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-info">
+        <h5>ToBeHERO Inc. © Copyright 2021. All Rights Reserved.</h5>
+        <ul class="icon-foooter">
+          <li> <a href=""><i class="fab fa-twitter"></i></a> </li>
+          <li><a href=""><i class="fab fa-github"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- footer -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
