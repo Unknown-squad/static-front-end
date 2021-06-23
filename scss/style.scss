@@ -3059,6 +3059,260 @@ header nav .nav-guardian {
   }
 }
 /*end page guardian-settings*/
+/*start page guardian-checkout*/
+.hr-section-26 {
+  padding: 15px 80px;
+  min-height: calc(100vh - 119px);
+  .checkout-card {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    form,
+    form div {
+      padding-bottom: 5px;
+    }
+    .credit-card-info {
+      background-color: #f3f4f7;
+      width: 75%;
+      padding: 1rem 1.25rem;
+      border-radius: 10px;
+      .course {
+        font-size: 16px;
+        font-weight: 300;
+        color: $text-color;
+        span {
+          opacity: 0.8;
+        }
+      }
+      .select-child {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 0.5rem;
+        gap: 0.5rem;
+        .option-child {
+          margin-top: 0.15rem;
+          background-color: #fff;
+          padding: 1rem 1.75rem 2rem;
+          border-radius: 12px;
+          font-size: 14px;
+          color: $text-color;
+          [type="radio"]:checked,
+          [type="radio"]:not(:checked) {
+            display: none;
+          }
+          [type="radio"]:checked + label,
+          [type="radio"]:not(:checked) + label {
+            position: relative;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+          }
+          [type="radio"]:checked + label:before,
+          [type="radio"]:not(:checked) + label:before {
+            content: "";
+            position: absolute;
+            bottom: -1.5rem;
+            width: 16px;
+            height: 16px;
+            border: 1px solid $purple-400;
+            border-radius: 100%;
+            background: #fff;
+          }
+          [type="radio"]:checked + label:after,
+          [type="radio"]:not(:checked) + label:after {
+            content: "";
+            width: 12px;
+            height: 12px;
+            background: $purple-400;
+            position: absolute;
+            bottom: -1.3rem;
+            border-radius: 100%;
+            -webkit-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+          }
+          [type="radio"]:not(:checked) + label:after {
+            opacity: 0;
+            -webkit-transform: scale(0);
+            transform: scale(0);
+          }
+          [type="radio"]:checked + label:after {
+            opacity: 1;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+          }
+          img {
+            width: auto;
+          }
+        }
+        .add-new {
+          margin-top: 0.15rem;
+          background-color: #fff;
+          padding: 1rem 1.75rem 2rem;
+          border-radius: 12px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          span {
+            text-transform: capitalize;
+            color: $text-color;
+            font-size: 14px;
+          }
+        }
+      }
+      h6 {
+        font-size: 16px;
+        font-weight: 400;
+        color: $text-color;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        opacity: 0.8;
+      }
+      color: $text-color;
+      img {
+        width: auto;
+      }
+      input {
+        background-color: #fff;
+        border: 1px solid $purple-200;
+        background-image: none;
+      }
+      select {
+        padding: 0.35rem 0.6rem 0.35rem 0.1rem;
+        background-color: #fff;
+        border: 1px solid $purple-200;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        appearance: none;
+        outline: 0;
+        box-shadow: none;
+        background: #fff;
+        flex: 1;
+        color: $text-color;
+        cursor: pointer;
+        height: 100%;
+        background-image: none;
+      }
+      .name-card {
+        display: flex;
+        gap: 0.75rem;
+        .w-input-1 {
+          width: 380px;
+        }
+        .w-input-2 {
+          width: 100px;
+        }
+      }
+      .number-card {
+        display: flex;
+        gap: 0.75rem;
+        .w-input-1 {
+          width: 380px;
+        }
+        .exp-month,
+        .exp-year {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          width: 100px;
+          line-height: 1;
+          border-radius: 12px;
+          height: 47px;
+          gap: 5px;
+          margin-top: 0.65rem;
+          &::after {
+            content: url(../images/arrow-exp.svg);
+            position: absolute;
+            top: 1.5rem;
+            right: 0;
+            padding: 0 0.55rem;
+            width: auto;
+            cursor: pointer;
+            pointer-events: none;
+            -webkit-transition: 0.25s all ease;
+            -o-transition: 0.25s all ease;
+            transition: 0.25s all ease;
+          }
+        }
+      }
+      .styled-checkbox {
+        position: absolute;
+        opacity: 0;
+        & + label {
+          position: relative;
+          cursor: pointer;
+          padding: 0;
+          opacity: 0.8;
+        }
+
+        // Box.
+        & + label:before {
+          content: "";
+          margin-right: 10px;
+          display: inline-block;
+          vertical-align: text-top;
+          width: 20px;
+          height: 20px;
+          background: #fff;
+          border: 1px solid $text-color;
+          border-radius: 7px;
+        }
+
+        // Box hover
+        &:hover + label:before {
+          background: $purple-400;
+        }
+
+        // Box focus
+
+        // Box checked
+        &:checked + label:before {
+          background: $purple-400;
+        }
+
+        // Checkmark. Could be replaced with an image
+        &:checked + label:after {
+          content: "";
+          position: absolute;
+          left: 5px;
+          top: 9px;
+          background: #fff;
+          width: 3px;
+          height: 3px;
+          box-shadow: 2px 0 0 #fff, 4px 0 0 #fff, 4px -2px 0 #fff,
+            4px -4px 0 #fff, 4px -6px 0 #fff, 4px -8px 0 #fff;
+          transform: rotate(45deg);
+        }
+      }
+    }
+    .checkout {
+      background-color: #f3f4f7;
+      width: 25%;
+      height: 100%;
+      padding: 0.75rem;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      color: $text-color;
+      .total-price {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-transform: capitalize;
+        span {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+/*end page guardian-checkout*/
 /*start footer*/
 footer {
   background-color: $purple-500;
@@ -3120,7 +3374,7 @@ footer {
     h2 {
     font-size: 18px;
   }
-  .hr-section-25 .guardian-settings{
+  .hr-section-25 .guardian-settings {
     width: 68rem;
   }
 }
@@ -3213,11 +3467,14 @@ footer {
   .hr-section-24 .guardian-appointment-control-container .appointment-title {
     width: 16.25rem;
   }
-  .hr-section-25{
+  .hr-section-25 {
     padding: 1rem;
   }
-  .hr-section-25 .guardian-settings{
+  .hr-section-25 .guardian-settings {
     width: auto;
+  }
+  .hr-section-26 {
+    padding: 15px 0;
   }
 }
 @media screen and (max-width: 768px) {
@@ -3458,9 +3715,35 @@ footer {
     width: 100%;
     height: 100%;
   }
-  .hr-section-25{
+  .hr-section-25 {
     min-height: calc(100vh - 153px);
     padding: 0;
+  }
+  .hr-section-26 .checkout-card {
+    flex-direction: column;
+    padding: .5rem;
+  }
+  .hr-section-26 .checkout-card .credit-card-info {
+    width: 100%;
+    padding: 1.25rem;
+  }
+  .hr-section-26 .checkout-card .credit-card-info .select-child {
+    flex-direction: column;
+  }
+  .hr-section-26 .checkout-card .credit-card-info .name-card,
+  .hr-section-26 .checkout-card .credit-card-info .number-card {
+    flex-direction: column;
+  }
+  .hr-section-26 .checkout-card .credit-card-info .name-card .w-input-1,
+  .hr-section-26 .checkout-card .credit-card-info .name-card .w-input-2,
+  .hr-section-26 .checkout-card .credit-card-info .number-card .w-input-1,
+  .hr-section-26 .checkout-card .credit-card-info .number-card .exp-month,
+  .hr-section-26 .checkout-card .credit-card-info .number-card .exp-year,
+  .hr-section-26 .checkout-card .checkout {
+    width: auto;
+  }
+  .hr-section-26 .checkout-card .credit-card-info .styled-checkbox + label:before{
+    margin-right: 7px;
   }
   footer .footer-info {
     display: block;
