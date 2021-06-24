@@ -1768,7 +1768,7 @@ header nav .navbar li .bg-purple-400:hover {
 /* end page sign in*/
 /* start page sign in-hero*/
 .header-signIn-hero {
-  padding: 0.5rem 0 0.5rem 2rem;
+  padding: 0.5rem 1.5rem 0.5rem 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1781,6 +1781,17 @@ header nav .navbar li .bg-purple-400:hover {
 
 .header-signIn-hero .arrow img:hover {
   transform: scaleX(1.25);
+}
+
+.header-signIn-hero .arrow-back {
+  transition: all 0.3s ease-in-out;
+}
+
+.header-signIn-hero .arrow-back:hover {
+  background-color: #fff;
+  padding: 5px 5px 0 9px;
+  border-radius: 100%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
 }
 
 .header-signIn-hero .nav-signIn-hero {
@@ -4694,6 +4705,158 @@ header nav .nav-guardian li:hover a {
 }
 
 /*end page guardian-checkout*/
+/*start page hero-home*/
+.hr-section-27 {
+  padding: 15px 80px 60px;
+  min-height: calc(100vh - 119px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hr-section-27 h4 {
+  text-align: center;
+  color: #414141;
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.hr-section-27 .hero-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 55rem;
+  border: 1px solid #343090;
+  border-radius: 10px;
+  padding: .75rem;
+  margin-bottom: 2rem;
+}
+
+.hr-section-27 .hero-card img {
+  border-radius: 10px;
+}
+
+.hr-section-27 .hero-card .appointment-hero-mentor {
+  display: flex;
+  gap: 3.5rem;
+}
+
+.hr-section-27 .hero-card .appointment-hero-mentor .hero-appointment-control-container {
+  row-gap: 0.5rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.hr-section-27 .hero-card .appointment-hero-mentor .hero-appointment-control-container h4 {
+  color: #414141;
+}
+
+.hr-section-27 .hero-card .appointment-hero-mentor .hero-appointment-control-container .appointment-control-item {
+  display: flex;
+  background-color: #f3f4f7;
+  align-items: center;
+  border-radius: 12px;
+  gap: 0.75rem;
+  padding: 0.5rem;
+  width: 41rem;
+  border: 1px solid transparent;
+}
+
+.hr-section-27 .hero-card .appointment-hero-mentor .hero-appointment-control-container .appointment-control-item.live-active {
+  border: 1px solid #6592fd;
+  box-shadow: 0px 0px 4px #6592fd;
+}
+
+.hr-section-27 .hero-card .appointment-hero-mentor .hero-appointment-control-container .appointment-control-item.live-active .appointment-date,
+.hr-section-27 .hero-card .appointment-hero-mentor .hero-appointment-control-container .appointment-control-item.live-active .appointment-time,
+.hr-section-27 .hero-card .appointment-hero-mentor .hero-appointment-control-container .appointment-control-item.live-active .appointment-title {
+  border: 1px solid #6592fd;
+}
+
+.hr-section-27 .hero-card .appointment-hero-mentor .hero-appointment-control-container .appointment-sub-item p {
+  color: #414141;
+  font-size: 14px;
+  font-weight: 300;
+  display: flex;
+  gap: 1rem;
+}
+
+.hr-section-27 .hero-card .appointment-hero-mentor .hero-appointment-control-container .appointment-date,
+.hr-section-27 .hero-card .appointment-hero-mentor .hero-appointment-control-container .appointment-time,
+.hr-section-27 .hero-card .appointment-hero-mentor .hero-appointment-control-container .appointment-title {
+  background-color: white;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid transparent;
+  border-radius: 7px;
+}
+
+.hr-section-27 .hero-card .appointment-hero-mentor .hero-appointment-control-container .appointment-title {
+  width: 17.45rem;
+}
+
+.hr-section-27 .hero-card .appointment-hero-mentor .hero-appointment-control-container .appointment-button {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 0.5rem;
+  visibility: hidden;
+}
+
+.hr-section-27 .hero-card .appointment-hero-mentor .hero-appointment-control-container .appointment-button button {
+  cursor: pointer;
+}
+
+.hr-section-27 .hero-card .appointment-hero-mentor .hero-appointment-control-container .appointment-button.active {
+  visibility: inherit;
+}
+
+.hr-section-27 .hero-card .appointment-hero-mentor .hero-appointment-control-container .live-active .appointment-button .guardian-live-btn button {
+  background-color: #6592fd;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 0.4rem 1.5rem;
+  opacity: 1;
+}
+
+.hr-section-27 .hero-card .appointment-hero-mentor .hero-appointment-control-container .live-active .appointment-button .guardian-live-btn button span {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+  display: inline-flex;
+  margin-left: 3px;
+}
+
+.hr-section-27 .hero-card .appointment-hero-mentor .hero-appointment-control-container .guardian-live-btn button {
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 0.4rem 1.5rem;
+  background-color: #6592fd;
+  opacity: 0.4;
+}
+
+.hr-section-27 .hero-card .appointment-hero-mentor .mentor-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hr-section-27 .hero-card .appointment-hero-mentor .mentor-img .title-img {
+  color: #414141;
+  font-size: 16px;
+}
+
+.hr-section-27 .hero-card .appointment-hero-mentor .mentor-img img {
+  width: auto;
+  border-radius: 100%;
+}
+
+/*end page hero-home*/
 /*start footer*/
 footer {
   background-color: #343090;
@@ -4806,6 +4969,10 @@ h2 {
   .hr-section-23 .guardian-home .basic-info-child .someone-child {
     left: -3.5%;
   }
+  .hr-section-27 {
+    align-items: inherit;
+    justify-content: inherit;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -4860,7 +5027,8 @@ h2 {
   .hr-section-25 .guardian-settings {
     width: auto;
   }
-  .hr-section-26 {
+  .hr-section-26,
+  .hr-section-27 {
     padding: 15px 0;
   }
 }
@@ -4943,6 +5111,20 @@ h2 {
   .hr-section-23 .guardian-home .basic-info-child .add-someone {
     top: 74%;
     left: -4%;
+  }
+  .hr-section-27 .hero-card {
+    width: auto;
+  }
+  .hr-section-27 .hero-card .appointment-hero-mentor .hero-appointment-control-container .appointment-control-item {
+    width: auto;
+  }
+  .hr-section-27 .hero-card .appointment-hero-mentor {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .hr-section-27 .hero-card .appointment-hero-mentor .hero-appointment-control-container {
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -5109,7 +5291,7 @@ textarea {
   }
   .hr-section-26 .checkout-card {
     flex-direction: column;
-    padding: .5rem;
+    padding: 0.5rem;
   }
   .hr-section-26 .checkout-card .credit-card-info {
     width: 100%;
@@ -5130,8 +5312,16 @@ textarea {
   .hr-section-26 .checkout-card .checkout {
     width: auto;
   }
-  .hr-section-26 .checkout-card .credit-card-info .styled-checkbox + label:before {
+  .hr-section-26
+.checkout-card
+.credit-card-info
+.styled-checkbox
++ label:before {
     margin-right: 7px;
+  }
+  .hr-section-27 .hero-card .appointment-hero-mentor .hero-appointment-control-container .appointment-control-item {
+    flex-direction: column;
+    align-items: initial;
   }
   footer .footer-info {
     display: block;
