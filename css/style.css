@@ -3522,7 +3522,8 @@ header nav .nav-mentor li.active:hover a {
   margin: 2.5rem 0;
 }
 
-.hr-section-22 .name-plate .guardian-name-plate {
+.hr-section-22 .name-plate .guardian-name-plate,
+.hr-section-22 .name-plate .mentor-name-plate {
   border: 1px solid #8c61ff;
   border-radius: 12px;
   display: flex;
@@ -3535,7 +3536,8 @@ header nav .nav-mentor li.active:hover a {
   position: relative;
 }
 
-.hr-section-22 .name-plate .guardian-name-plate .guardian-plate-phone-number * {
+.hr-section-22 .name-plate .guardian-name-plate .guardian-plate-phone-number *,
+.hr-section-22 .name-plate .mentor-name-plate .guardian-plate-phone-number * {
   text-decoration: none;
   font-weight: 300;
   font-size: 12px;
@@ -5030,6 +5032,12 @@ h2 {
   .hr-section-26,
   .hr-section-27 {
     padding: 15px 0;
+  }
+  .hr-section-22 .name-plate {
+    margin: 2.5rem 0 2rem;
+  }
+  .hr-section-22 .mentor-control-live {
+    margin-bottom: 2rem;
   }
 }
 
