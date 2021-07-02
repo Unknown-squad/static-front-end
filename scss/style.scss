@@ -2262,7 +2262,8 @@ header nav .nav-mentor {
     align-items: center;
     gap: 1rem;
     margin: 2.5rem 0;
-    .guardian-name-plate {
+    .guardian-name-plate,
+    .mentor-name-plate {
       border: 1px solid $purple-300;
       border-radius: 12px;
       display: flex;
@@ -3624,6 +3625,12 @@ footer {
   .hr-section-26,
   .hr-section-27 {
     padding: 15px 0;
+  }
+  .hr-section-22 .name-plate{
+    margin: 2.5rem 0 2rem;
+  }
+  .hr-section-22 .mentor-control-live{
+    margin-bottom: 2rem;
   }
 }
 @media screen and (max-width: 768px) {
